@@ -12,24 +12,17 @@
 		],
 		"equip": {
 			"slot1": {
-				"equipable": [
-					"DD Guns"
-				],
+				"type": "DD Guns",
 				"efficiency": "120%",
 				"count": 1
 			},
 			"slot2": {
-				"equipable": [
-					"DD Guns",
-					"CL Guns"
-				],
+				"type": "DD Guns/CL Guns",
 				"efficiency": "75%",
 				"count": 1
 			},
 			"slot3": {
-				"equipable": [
-					"Torpedoes"
-				],
+				"type": "Torpedoes",
 				"efficiency": "100%",
 				"count": 2
 			}
@@ -80,24 +73,17 @@
 		],
 		"equip": {
 			"slot1": {
-				"equipable": [
-					"CL Guns"
-				],
+				"type": "CL Guns",
 				"efficiency": "120%",
 				"count": 1
 			},
 			"slot2": {
-				"equipable": [
-					"Torpedoes"
-				],
+				"type": "Torpedoes",
 				"efficiency": "135%",
 				"count": 1
 			},
 			"slot3": {
-				"equipable": [
-					"DD Guns",
-					"AA Guns"
-				],
+				"type": "DD Guns/AA Guns",
 				"efficiency": "55%",
 				"count": 1
 			}
@@ -148,24 +134,17 @@
 		],
 		"equip": {
 			"slot1": {
-				"equipable": [
-					"CA Guns"
-				],
+				"type": "CA Guns",
 				"efficiency": "120%",
 				"count": 1
 			},
 			"slot2": {
-				"equipable": [
-					"DD Guns",
-					"CL Guns"
-				],
+				"type": "DD Guns/CL Guns",
 				"efficiency": "60%",
 				"count": 1
 			},
 			"slot3": {
-				"equipable": [
-					"Torpedoes"
-				],
+				"type": "Torpedoes",
 				"efficiency": "110%",
 				"count": 2
 			}
@@ -216,23 +195,17 @@
 		],
 		"equip": {
 			"slot1": {
-				"equipable": [
-					"CA Guns"
-				],
+				"type": "CA Guns",
 				"efficiency": "125%",
 				"count": 1
 			},
 			"slot2": {
-				"equipable": [
-					"Torpedoes"
-				],
+				"type": "Torpedoes",
 				"efficiency": "160%",
 				"count": 2
 			},
 			"slot3": {
-				"equipable": [
-					"AA Guns"
-				],
+				"type": "AA Guns",
 				"efficiency": "120%",
 				"count": 1
 			}
@@ -278,25 +251,17 @@
 		],
 		"equip": {
 			"slot1": {
-				"equipable": [
-					"BB Guns"
-				],
+				"type": "BB Guns",
 				"efficiency": "125%",
 				"count": 1
 			},
 			"slot2": {
-				"equipable": [
-					"DD Guns",
-					"CL Guns"
-				],
+				"type": "DD Guns/CL Guns",
 				"efficiency": "200%",
 				"count": 2
 			},
 			"slot3": {
-				"equipable": [
-					"DD Guns",
-					"AA Guns"
-				],
+				"type": "DD Guns/AA Guns",
 				"efficiency": "70%",
 				"count": 1
 			}
