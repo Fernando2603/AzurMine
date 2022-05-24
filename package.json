@@ -1,0 +1,16 @@
+{
+  "name": "azurmine",
+  "version": "1.0.0",
+  "description": "Azur Lane datamine",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node check.js"
+  },
+  "author": "Fernando2603",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.4"
+  }
+}

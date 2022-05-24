@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AM21052022F2603CS#7601</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.11.3/datatables.min.css"/>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.11.3/datatables.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+		table tbody tr th, table thead tr th {font-size: 15px;}
+		.Red {background-color: #faa;}
+		.Yellow {background-color: #ffa;}
+		.Blue {background-color: #aaf;}
+	</style>
+</head>
+<body>
+	<table class="table table-hover" id="mainTable">
+		<thead>
+			<tr>
+				<th>Ship</th>
+				<th>Skill</th>
+			</tr>
+		</thead>
+		<tbody class="container"></tbody>
+	</table>
+</body>
+<script>
+
+const data = [
+	{
+		"id": 402074,
+		"name": "SMS Emden - 埃姆登",
+		"skill": [
+			{
+				"name": "Eeny meeny miny moe",
+				"type": "Red",
+				"desc": "自身副炮栏位装备轻巡主炮武器时，主炮、副炮栏位武器效率提高25.0%，战斗中每20秒，触发一轮弹幕Lv.10（弹幕威力依据技能等级），弹幕使命中的敌方单位减速30%，持续5秒；自身副炮栏位装备驱逐主炮武器时，战斗中每10秒，生成一枚可以阻挡5枚子弹的护盾，持续5秒，若护盾在持续时间内被击破，触发一轮特殊弹幕Lv.10，特殊弹幕造成伤害的15.0%回复自身耐久（弹幕威力依据技能等级）"
+			},
+			{
+				"name": "往昔之影·埃姆登(?)",
+				"type": "Yellow",
+				"desc": "战斗开始时，提升自身机动属性10.0%，战斗中自身每击破一艘敌舰，机动额外提高5.0%，最高3层；进入战斗时，若先锋舰队仅由自身组成，战斗中无视弹药匮乏效果；进入战斗时，若队伍中存在其他铁血阵营角色，开场5秒后，扣减队伍中所有铁血阵营角色11点耐久，并提高其10.0%炮击属性"
+			},
+			{
+				"name": "专属弹幕-埃姆登II",
+				"type": "Red",
+				"desc": "主炮每进行10次攻击，触发专属弹幕-埃姆登II"
+			}
+		]
+	},
+	{
+		"id": 402084,
+		"name": "SMS Elbing - 埃尔宾",
+		"skill": [
+			{
+				"name": "攻击！攻击！",
+				"type": "Yellow",
+				"desc": "战斗中，自身机动属性提高15.0%，自身装备的主炮武器每进行5次攻击，自身炮击、防空属性提高5.0%，持续至战斗结束，最高3层，防空圈内敌方飞机被击落时，炮击、防空属性提升效果直接叠加至满层"
+			},
+			{
+				"name": "往昔之影·埃尔宾",
+				"type": "Red",
+				"desc": "自身受到鱼雷武器造成的伤害降低15.0%，自身装备的鱼雷武器开火时，若自身30距离内没有敌方单位，触发一轮穿甲弹弹幕Lv.10，否则触发一轮高爆弹弹幕Lv.10（弹幕威力依据技能等级）"
+			},
+			{
+				"name": "全弹发射II",
+				"type": "Red",
+				"desc": "主炮每进行8次攻击，触发全弹发射-皮劳级II"
+			}
+		]
+	},
+	{
+		"id": 403114,
+		"name": "SMS Yorck - 约克",
+		"skill": [
+			{
+				"name": "精准射击",
+				"type": "Yellow",
+				"desc": "自身炮击、命中属性提高15.0%；自身对驱逐舰的命中率提高10.0%"
+			},
+			{
+				"name": "往昔之影·约克",
+				"type": "Blue",
+				"desc": "自身受到的雷击伤害降低15.0%；战斗开始后每20秒生成一枚可以阻挡3枚鱼雷的护盾，持续20秒"
+			},
+			{
+				"name": "全弹发射II",
+				"type": "Red",
+				"desc": "主炮每进行6次攻击，触发全弹发射-罗恩级II"
+			}
+		]
+	},
+	{
+		"id": 403124,
+		"name": "KMS Prinz Eugen - 小欧根",
+		"skill": [
+			{
+				"name": "不破之盾盾盾！",
+				"type": "Blue",
+				"desc": "战斗开始时，生成一组旋转的护盾，每个蓝色护盾可阻挡4发子弹，每个紫色护盾可阻挡2枚鱼雷，每个红色护盾可以通过碰撞造成最多6次伤害，护盾持续10.0秒，每隔30秒再次生成该护盾"
+			},
+			{
+				"name": "全弹发射II",
+				"type": "Red",
+				"desc": "主炮每进行6次攻击，触发全弹发射-希佩尔海军上将级II"
+			}
+		]
+	},
+	{
+		"id": 404034,
+		"name": "SMS Seydlitz - 塞德利茨",
+		"skill": [
+			{
+				"name": "铁血大将",
+				"type": "Red",
+				"desc": "战斗开始时，若队伍中存在至少2个铁血阵营的角色，自身炮击、装填属性提高18%；\n战斗开始时，自身耐久越高，自身首轮主炮装填时间越少（最少为20%，最多为80.0%）；\n战斗中，自身承受主力编队中其他铁血阵营角色所受伤害的60.0%，并降低受到该伤害的20.0%，承受伤害效果会在触发【不沉的传奇】后失效"
+			},
+			{
+				"name": "不沉的传奇",
+				"type": "Blue",
+				"desc": "受到致命伤害时回避本次伤害，不会阵亡，10秒内回避所有伤害，回复自身22.0%最大耐久值，并降低自己受到伤害的5%，持续至战斗结束，该效果每场战斗只能触发一次；\n战斗中自身耐久越高，造成的伤害越高，最多提高20.0%；\n自身耐久越低，自身受到的伤害越低，最多降低20.0%（不能降低来自【铁血大将】中承受其他角色的伤害）"
+			},
+			{
+				"name": "往昔之影·塞德利茨",
+				"type": "Yellow",
+				"desc": "自身首轮主炮发射时触发一轮特殊弹幕Lv.10；\n战斗开始时，若自身不处于旗舰位置且旗舰位置角色拥有【往昔之影】技能，该角色耐久越高，该角色首轮主炮装填时间越少（最少为20%，最多为80.0%）"
+			}
+		]
+	},
+	{
+		"id": 404044,
+		"name": "SMS Lützow - 吕佐夫",
+		"skill": [
+			{
+				"name": "斯卡格拉克的勇气",
+				"type": "Red",
+				"desc": "战斗开始后，自身主炮伤害提高10.0%；主炮开火时，有70.0%概率朝自己前方发射一轮特殊弹幕Lv.10（威力和样式依据技能等级）"
+			},
+			{
+				"name": "狩猎时刻",
+				"type": "Yellow",
+				"desc": "自身在战斗中击破敌舰时，自身炮击、命中属性提高5.0%，最多叠加3次，当效果叠加至3层时，自身装填属性提高15.0%"
+			},
+			{
+				"name": "往昔之影·吕佐夫",
+				"type": "Red",
+				"desc": "自身对战列、战巡的伤害提高10.0%，若敌方单位在受到自身伤害后5秒内被击破可视为被自身击破；自身装备半穿甲弹及穿甲弹主炮命中敌方单位时，同时降低其炮击、命中属性10.0%，持续3秒，效果结束后有10%的概率对其造成3000点伤害"
+			}
+		]
+	}
+]
+data.forEach((idx) => {
+	let skill_data = "";
+	idx.skill.forEach((skill) => {
+		skill_data += `<th class="${skill.type}">${skill.name} - ${skill.desc}</th>`;
+	})
+	$(".container").append(`<tr><th>${idx.name}</th>${skill_data}</tr>`);
+})
+</script>
+</html>
