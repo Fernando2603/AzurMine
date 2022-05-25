@@ -25,18 +25,24 @@ Promise.all([
 
 function main(data, id, ship) {
     let new_id = [];
+    let all_id = [];
     id.all.forEach((idx) => {
         let status = false;
         data.forEach((old) => {
-            if ( old === idx ) { status = true };
+            if ( old.id === idx ) { status = true };
         });
 
-        if ( !status ) { new_id.push(idx); console.log("=> " + idx.toString().padEnd(10) + ship[idx].english_name) };
+        all_id.push({ id: idx, code: ship[idx].english_name, name: ship[idx].name, type: ship[idx].type, rarity: ship[idx].rarity });
+        if ( !status ) {
+            new_id.push({ id: idx, code: ship[idx].english_name, name: ship[idx].name });
+            console.log("=> " + idx.toString().padEnd(10) + ship[idx].english_name)
+        };
     });
 
 
     const json_content   = JSON.stringify(new_id, null, '\t');
     const json_content_2 = JSON.stringify([...data, ...new_id], null, '\t');
+    const json_content_3 = JSON.stringify(all_id, null, '\t');
 
     fs.writeFile("./database.json", json_content, 'utf8', function (err) {
         if (err) {
@@ -52,5 +58,13 @@ function main(data, id, ship) {
             return console.log(err);
         };
         console.log("=> ./ship_id.json has been updated!");
+    });
+
+    fs.writeFile("./all_id.json", json_content_3, 'utf8', function (err) {
+        if (err) {
+            console.log("An error occured while writing JSON to File");
+            return console.log(err);
+        };
+        console.log("=> ./all_id.json has been updated!");
     });
 };

@@ -1,4 +1,4 @@
-export default function stats_extract(idx, ship, enhance, data) {
+export default function stats_extract(idx, ship, enhance, data, retrofit) {
     const id_group        = idx.toString().slice(0, -1);
     const enhance_stats   = enhance[id_group].durability;
 
@@ -15,18 +15,18 @@ export default function stats_extract(idx, ship, enhance, data) {
     };
 
     const armor = ship[idx].armor_type.toString().replace("1", "Light").replace("2", "Medium").replace("3", "Heavy");
-    const hp    = getStats(0);
-    const fp    = getStats(1, enhance_fp);
-    const trp   = getStats(2, enhance_trp);
-    const aa    = getStats(3);
-    const avi   = getStats(4, enhance_avi);
-    const rld   = getStats(5, enhance_rld);
-    const hit   = getStats(7);
-    const eva   = getStats(8);
-    const spd   = getStats(9, 0, 1);
+    const hp    = retrofit.hp  + getStats(0);
+    const fp    = retrofit.fp  + getStats(1, enhance_fp);
+    const trp   = retrofit.trp + getStats(2, enhance_trp);
+    const aa    = retrofit.aa  + getStats(3);
+    const avi   = retrofit.avi + getStats(4, enhance_avi);
+    const rld   = retrofit.rld + getStats(5, enhance_rld);
+    const hit   = retrofit.hit + getStats(7);
+    const eva   = retrofit.eva + getStats(8);
+    const spd   = retrofit.spd + getStats(9, 0, 1);
     const luck  = getStats(10, 0, 1);
-    const asw   = getStats(11);
-    const cost  = data[idx].oil_at_end + 1;
+    const asw   = retrofit.asw + getStats(11);
+    const cost  = data[idx].oil_at_end + 1 - retrofit.oil;
 
     const stats_builder = ({
         health: hp,

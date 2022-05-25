@@ -1,9 +1,11 @@
-export default function metadata_extract(idx, ship, breakout) {
+export default function metadata_extract(idx, ship, breakout, retrofit) {
     const id_group   = idx.toString().slice(0, -1);
     const ship_name  = ship[idx].english_name + " - " + ship[idx].name;
     const faction_id = ship[idx].nationality;
-    const rarity_id  = ship[idx].rarity;
+    let  rarity_id   = ship[idx].rarity;
     const type_id    = ship[idx].type;
+
+    if ( retrofit.status ) { rarity_id += 1 };
 
     const limitbreak = [breakout[id_group + 1].breakout_view, breakout[id_group + 2].breakout_view, breakout[id_group + 3].breakout_view];
 

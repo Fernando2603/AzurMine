@@ -1,5 +1,4 @@
-export default function gear_extract(idx, data, ship) {
-    
+export default function gear_extract(idx, data, ship, retrofit) {
     function replacer(type) {
         let data = [];
         type.forEach((x) => {
@@ -27,9 +26,13 @@ export default function gear_extract(idx, data, ship) {
     const coefficient = ship[idx].equipment_proficiency;
     const count       = ship[idx].base_list;
 
-    const slot1 = ({ type: replacer(data[idx].equip_1,), efficiency: Math.round(100 * coefficient[0]) + "%", count: count[0] });
-    const slot2 = ({ type: replacer(data[idx].equip_2,), efficiency: Math.round(100 * coefficient[1]) + "%", count: count[1] });
-    const slot3 = ({ type: replacer(data[idx].equip_3,), efficiency: Math.round(100 * coefficient[2]) + "%", count: count[2] });
+    const coef_1 = Math.round(100 * coefficient[0]) + retrofit.s1;
+    const coef_2 = Math.round(100 * coefficient[1]) + retrofit.s2;
+    const coef_3 = Math.round(100 * coefficient[2]) + retrofit.s3;
+
+    const slot1 = ({ type: replacer(data[idx].equip_1,), efficiency: coef_1 + "%", count: count[0] });
+    const slot2 = ({ type: replacer(data[idx].equip_2,), efficiency: coef_2 + "%", count: count[1] });
+    const slot3 = ({ type: replacer(data[idx].equip_3,), efficiency: coef_3 + "%", count: count[2] });
 
     const gear_builder = ({ slot1: slot1, slot2: slot2, slot3: slot3 });
     return gear_builder

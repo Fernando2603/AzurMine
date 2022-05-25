@@ -1,19 +1,23 @@
 import fs from 'node:fs';
 
+import retrofit_extract from "./main/retrofit_extract.js";
 import metadata_extract from "./main/metadata_extract.js";
 import gear_extract from "./main/gear_extract.js";
 import skill_extract from "./main/skill_extract.js";
 import stats_extract from "./main/stats_extract.js";
 
-export default function main(ship_id, ship, skill, data, enhance, breakout) {
+export default function main(ship_id, ship, skill, data, enhance, breakout, retrofit, retrofitdesc) {
     let json_builder = [];
-    ship_id.forEach((idx) => {
-        const skill_list = data[idx].buff_list_display;
+    ship_id.forEach((cs) => {
+        const idx           = cs.id;
+        const group_type    = data[idx].group_type.toString();
+        const skill_list    = data[idx].buff_list_display;
 
-        const metadata_builder = metadata_extract(idx, ship, breakout);
-        const gear_builder     = gear_extract(idx, data, ship);
+        const retrofit_builder = retrofit_extract(idx, group_type, retrofit, retrofitdesc);
+        const metadata_builder = metadata_extract(idx, ship, breakout, retrofit_builder);
+        const gear_builder     = gear_extract(idx, data, ship, retrofit_builder);
         const skill_builder    = skill_extract(skill_list, skill);
-        const stats_builder    = stats_extract(idx, ship, enhance, data);
+        const stats_builder    = stats_extract(idx, ship, enhance, data, retrofit_builder);
 
         json_builder.push({...metadata_builder, equip: gear_builder, stats: stats_builder, skill: skill_builder});
     });

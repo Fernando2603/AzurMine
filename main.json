@@ -239,6 +239,128 @@
 		]
 	},
 	{
+		"id": 404034,
+		"name": "SMS Seydlitz - 塞德利茨",
+		"hullType": "Battlecruiser",
+		"faction": "Iron Blood",
+		"rarity": "Super Rare",
+		"limitbreak": [
+			"主炮底座+1/主炮效率提高5%",
+			"副炮底座+1/主炮效率提高10%",
+			"主炮底座+1/主炮效率提高15%"
+		],
+		"equip": {
+			"slot1": {
+				"type": "BB Guns",
+				"efficiency": "140%",
+				"count": 1
+			},
+			"slot2": {
+				"type": "DD Guns/CL Guns",
+				"efficiency": "170%",
+				"count": 2
+			},
+			"slot3": {
+				"type": "DD Guns/AA Guns",
+				"efficiency": "70%",
+				"count": 1
+			}
+		},
+		"stats": {
+			"health": 7537,
+			"armor": "Heavy",
+			"firepower": 389,
+			"torpedo": 181,
+			"antiAir": 270,
+			"aviation": 0,
+			"reload": 151,
+			"hit": 69,
+			"evasion": 34,
+			"speed": 26,
+			"luck": 83,
+			"asw": 0,
+			"cost": 15
+		},
+		"skill": [
+			{
+				"name": "铁血大将",
+				"type": "Red",
+				"desc": "战斗开始时，若队伍中存在至少2个铁血阵营的角色，自身炮击、装填属性提高18%；\n战斗开始时，自身耐久越高，自身首轮主炮装填时间越少（最少为20%，最多为80.0%）；\n战斗中，自身承受主力编队中其他铁血阵营角色所受伤害的60.0%，并降低受到该伤害的20.0%，承受伤害效果会在触发【不沉的传奇】后失效"
+			},
+			{
+				"name": "不沉的传奇",
+				"type": "Blue",
+				"desc": "受到致命伤害时回避本次伤害，不会阵亡，10秒内回避所有伤害，回复自身22.0%最大耐久值，并降低自己受到伤害的5%，持续至战斗结束，该效果每场战斗只能触发一次；\n战斗中自身耐久越高，造成的伤害越高，最多提高20.0%；\n自身耐久越低，自身受到的伤害越低，最多降低20.0%（不能降低来自【铁血大将】中承受其他角色的伤害）"
+			},
+			{
+				"name": "往昔之影·塞德利茨",
+				"type": "Yellow",
+				"desc": "自身首轮主炮发射时触发一轮特殊弹幕Lv.10；\n战斗开始时，若自身不处于旗舰位置且旗舰位置角色拥有【往昔之影】技能，该角色耐久越高，该角色首轮主炮装填时间越少（最少为20%，最多为80.0%）"
+			}
+		]
+	},
+	{
+		"id": 404044,
+		"name": "SMS Lützow - 吕佐夫",
+		"hullType": "Battlecruiser",
+		"faction": "Iron Blood",
+		"rarity": "Super Rare",
+		"limitbreak": [
+			"主炮底座+1/主炮效率提高5%",
+			"副炮底座+1/主炮效率提高10%",
+			"主炮底座+1/主炮效率提高15%"
+		],
+		"equip": {
+			"slot1": {
+				"type": "BB Guns",
+				"efficiency": "125%",
+				"count": 1
+			},
+			"slot2": {
+				"type": "DD Guns/CL Guns",
+				"efficiency": "170%",
+				"count": 2
+			},
+			"slot3": {
+				"type": "DD Guns/AA Guns",
+				"efficiency": "90%",
+				"count": 1
+			}
+		},
+		"stats": {
+			"health": 7803,
+			"armor": "Heavy",
+			"firepower": 395,
+			"torpedo": 183,
+			"antiAir": 274,
+			"aviation": 0,
+			"reload": 166,
+			"hit": 68,
+			"evasion": 32,
+			"speed": 26,
+			"luck": 30,
+			"asw": 0,
+			"cost": 15
+		},
+		"skill": [
+			{
+				"name": "斯卡格拉克的勇气",
+				"type": "Red",
+				"desc": "战斗开始后，自身主炮伤害提高10.0%；主炮开火时，有70.0%概率朝自己前方发射一轮特殊弹幕Lv.10（威力和样式依据技能等级）"
+			},
+			{
+				"name": "狩猎时刻",
+				"type": "Yellow",
+				"desc": "自身在战斗中击破敌舰时，自身炮击、命中属性提高5.0%，最多叠加3次，当效果叠加至3层时，自身装填属性提高15.0%"
+			},
+			{
+				"name": "往昔之影·吕佐夫",
+				"type": "Red",
+				"desc": "自身对战列、战巡的伤害提高10.0%，若敌方单位在受到自身伤害后5秒内被击破可视为被自身击破；自身装备半穿甲弹及穿甲弹主炮命中敌方单位时，同时降低其炮击、命中属性10.0%，持续3秒，效果结束后有10%的概率对其造成3000点伤害"
+			}
+		]
+	},
+	{
 		"id": 405044,
 		"name": "SMS Thüringen - 图林根",
 		"hullType": "Battleship",
