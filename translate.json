@@ -1,0 +1,156 @@
+[
+	{
+
+		"id": 402074,
+		"name": "Emden",
+		"limitbreak": [
+			"Gain Exclusive Barrage I/main gun efficiency increased by 5%",
+			"Torpedo base +1/main gun efficiency increased by 10%",
+			"Exclusive Barrage Upgrade / All Weapon Efficiency Increased by 5% / Torpedo Base can be loaded at the same time"
+		],
+		"skill": [
+			{
+				"name": "Eeny meeny miny moe",
+				"desc": "When equipped with the main gun weapon of the light patrol, the efficiency of the main gun and the secondary gun weapon is increased by 25.0%, and every 20 seconds during the battle, a round of the bullet screen Lv.10 is triggered (the power of the bullet screen is based on the skill level), and enemy units in the mission of the bullet screen are slowed down by 30% for 5 seconds; when equipped with the main gun weapon of the expulsion in the secondary gun, every 10 seconds during the battle, a shield that can block 5 If the shield is broken during the duration, a round of special curtain Lv.10 will be triggered, and 15.0% of the damage done by the special curtain will be returned to its own durability (curtain power is based on skill level)"
+			},
+			{
+				"name": "Shadow of the Past - Emden(?)" ,
+				"desc": "At the start of battle, boosts your maneuvering attributes by 10.0%; for each enemy ship you break during battle, your maneuvering is increased by an additional 5.0%, up to a maximum of 3 tiers; when entering battle, if the vanguard fleet consists of only yourself, you ignore the ammo scarcity effect during battle; when entering battle, if there are other Ironborn characters in your party, 5 seconds after opening, deducts 11 points from all Ironborn characters in your party Endurance and increase their gunfire attributes by 10.0%"
+			},
+			{
+				"name": "Exclusive Barrage - Emden II",
+				"desc": "For every 10 attacks made by the main cannon, trigger Exclusive Barrage - Emden II"
+			}
+		]
+	},
+	{
+		"id": 402084,
+		"name": "Elbing",
+		"limitbreak": [
+			"Gain full ammo launch I/main gun efficiency increased by 5%",
+			"Torpedo Preload +1/Main Gun Efficiency 10% Increase",
+			"Full Bomb Launch Barrage Upgrade / Full Weapon Efficiency Increased by 5%"
+		],
+		"skill": [
+			{
+				"name": "Attack! Attack!" ,
+				"desc": "During battle, your own mobility attributes increase by 15.0%, for every 5 attacks made by your own equipped main gun weapon, your own artillery and anti-aircraft attributes increase by 5.0%, lasting until the end of the battle, up to 3 levels, when enemy aircraft in the anti-aircraft circle are shot down, the artillery and anti-aircraft attribute boosting effect stacks directly to the full level"
+			},
+			{
+				"name": "Shadow of the Past - Elbin",
+				"desc": "Damage dealt by torpedo weapons is reduced by 15.0%, and when your equipped torpedo weapon fires, if there are no enemy units within 30 distance of you, trigger a round of Armor Piercing projectile Lv.10, otherwise trigger a round of High Explosive projectile Lv.10 (projectile power is based on skill level)"
+			},
+			{
+				"name": "Full-fire II",
+				"desc": "Every 8 attacks made by the main cannon triggers Full Shell Fire - Pilau Level II"
+			}
+		]
+	},
+	{
+		"id": 403114,
+		"name": "York",
+		"limitbreak": [
+			"Gain full ammo firing I / 2% increase in full weapon efficiency",
+			"Torpedo Base +1/Full Weapon Efficiency 3% Increase",
+			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
+		],
+		"skill": [
+			{
+				"name": "precision shooting",
+				"desc": "Own gunfire and hit attributes increased by 15.0%; own hit rate against destroyers increased by 10.0%"
+			},
+			{
+				"name": "Shadow of the Past - York",
+				"desc": "Self takes 15.0% less damage from lightning strikes; generates a shield that blocks 3 torpedoes every 20 seconds after battle begins for 20 seconds"
+			},
+			{
+				"name": "Full Bomb Launch II",
+				"desc": "Every 6 attacks made by the main gun triggers Full Fire - Roan Class II"
+			}
+		]
+	},
+	{
+		"id": 403124,
+		"name": "Little Eugen",
+		"limitbreak": [
+			"Gain full ammo launch I / 2% increase in full weapon efficiency",
+			"Torpedo Base +1/Torpedo Preload +1/Full Weapon Efficiency 3% Increase",
+			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
+		],
+		"skill": [
+			{
+				"name": "Unbreakable shield shield shield!" ,
+				"desc": "At the start of combat, generate a rotating set of shields, each blue shield can block 4 rounds, each purple shield can block 2 torpedoes, each red shield can deal up to 6 damage by collision, the shield lasts 10.0 seconds and is generated again every 30 seconds"
+			},
+			{
+				"name": "Full Bomb Launch II",
+				"desc": "Every 6 attacks made by the main gun triggers Full Fire - Admiral Hipper Class II"
+			}
+		]
+	},
+	{
+		"id": 404034,
+		"name": "cedlitz",
+		"limitbreak": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
+		],
+		"skill": [
+			{
+				"name": "Iron General",
+				"desc": "At the start of battle, if there are at least 2 characters from the Ironborn camp in your party, your own artillery and reloading attributes are increased by 18%; \n the higher your own durability at the start of battle, the less time you take to reload your own first round main gun (minimum 20%, maximum 80.0%); \n during battle, you take 60.0% of the damage taken by other Ironborn camp characters in your main formation and reduce 20.0% of the damage taken by that damage, the effect of taking damage will expire after triggering [Unsinkable Legend]"
+			},
+			{
+				"name": "Unsinkable Legend",
+				"desc": "Evade this damage when taking lethal damage, will not die in battle, evade all damage for 10 seconds, restore your own 22.0% maximum durability value, and reduce the damage you take by 5%, lasting until the end of the battle, this effect can only be triggered once per battle; \n the higher your durability in battle, the higher the damage you deal, up to 20.0% higher; \n the lower your durability, the lower the damage you The lower your own durability, the lower the damage you take, up to a maximum of 20.0% lower (can not reduce the damage from [Iron General] in taking other characters)"
+			},
+			{
+				"name": "Shadow of the Past - Seidlitz",
+				"desc": "own first round of main gun firing triggers a round of special projectile Lv.10; \n the beginning of the battle, if you are not in the flagship position and the flagship position character has the [Shadow of the Past] skill, the higher the durability of the character, the less the character's first round of main gun loading time (minimum 20%, maximum 80.0%)"
+			}
+		]
+	},
+	{
+		"id": 404044,
+		"name": "Luzov",
+		"limitbreak": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
+		],
+		"skill": [
+			{
+				"name": "Skagrak's Courage",
+				"desc": "When battle begins, your own main cannon damage is increased by 10.0%; when the main cannon fires, it has a 70.0% chance of firing a round of special projectiles Lv.10 in front of you (power and style based on skill level)"
+			},
+			{
+				"name": "Hunting Hour",
+				"desc": "When you break an enemy ship in battle, your gunfire and hit attributes increase by 5.0%, stacking up to 3 times, and when the effect stacks to 3 levels, your loadout attributes increase by 15.0%"
+			},
+			{
+				"name": "Shadow of the Past - Luzov",
+				"desc": "10.0% increase in damage to battlecruisers and battlecruisers; if an enemy unit is broken within 5 seconds of being damaged by itself, it is considered to be broken by itself; when an enemy unit is hit by its own semi-armor piercing ammunition and armor piercing ammunition main gun, it also reduces its gunfire and hitting attributes by 10.0% for 3 seconds, with a 10% chance of dealing 3000 damage to it after the effect ends"
+			}
+		]
+	},
+	{
+		"id": 405044,
+		"name": "Thuringia",
+		"limitbreak": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
+		],
+		"skill": [
+			{
+				"name": "Long Night Starlight",
+				"desc": "Each time your main cannon is reloaded during battle, you have a 70.0% chance of triggering a special barrage Lv.10 (barrage power is based on skill level), enemy units hit by blue bullets in the special barrage have their mobility reduced by 8% for the next 10 seconds, and take 12.0% more damage from Ironborn characters in our main formation"
+			},
+			{
+				"name": "Shadow of the Past - Thuringia",
+				"desc": "When your second weapon is equipped with an Ironborn weapon, there is a 70.0% chance that the weapon will fire 2 additional rounds, and this effect will trigger once every 10 seconds at most."
+			}
+		]
+	}
+]

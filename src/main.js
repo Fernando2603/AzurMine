@@ -22,14 +22,35 @@ export default function main(ship_id, ship, skill, data, enhance, breakout, retr
         json_builder.push({...metadata_builder, equip: gear_builder, stats: stats_builder, skill: skill_builder});
     });
 
+    let translate_data = [];
+    json_builder.forEach((idx) => {
+        const ship_id    = idx.id;
+        const ship_name  = idx.name;
+        const limitbreak = idx.limitbreak;
+        let ship_skill   = [];
+
+        idx.skill.forEach((skl) => {
+            ship_skill.push({ name: skl.name, desc: skl.desc })
+        })
+
+        translate_data.push({ id: ship_id, name: ship_name, limitbreak: limitbreak, skill: ship_skill });
+    })
+
     const json_content    = JSON.stringify(json_builder, null , "\t");
 
-    fs.writeFile("./main.json", json_content, 'utf8', function (err) {
+    fs.writeFile("./data.json", json_content, 'utf8', function (err) {
         if (err) {
             console.log("An error occured while writing JSON to File");
             return console.log(err);
         };
-        console.log("=> ./main.json has been updated!");
+        console.log("=> ./data.json has been updated!");
+    });
 
+    fs.writeFile("./translate.json", JSON.stringify(translate_data, null, '\t'), 'utf8', function (err) {
+        if (err) {
+            console.log("An error occured while writing JSON to File");
+            return console.log(err);
+        };
+        console.log("=> ./translate.json has been updated!");
     });
 };

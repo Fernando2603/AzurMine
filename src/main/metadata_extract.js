@@ -1,6 +1,7 @@
 export default function metadata_extract(idx, ship, breakout, retrofit) {
     const id_group   = idx.toString().slice(0, -1);
-    const ship_name  = ship[idx].english_name + " - " + ship[idx].name;
+    const ship_name  = ship[idx].name;
+    const ship_code  = ship[idx].english_name;
     const faction_id = ship[idx].nationality;
     let  rarity_id   = ship[idx].rarity;
     const type_id    = ship[idx].type;
@@ -48,6 +49,6 @@ export default function metadata_extract(idx, ship, breakout, retrofit) {
     if ( type_id === 19 ) { type = "Munition Ship" };
     if ( type_id === 20 || type_id === 21 ) { type = "Guided-missle Destroyer" };
 
-    const metadata_builder = ({ id: idx, name: ship_name, hullType: type, faction: faction, rarity: rarity, limitbreak: limitbreak });
+    const metadata_builder = ({ id: idx, code: ship_code, name: ship_name, hullType: type, faction: faction, rarity: rarity, limitbreak: limitbreak });
     return metadata_builder
 };

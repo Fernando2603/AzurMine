@@ -1,7 +1,9 @@
 [
 	{
 		"id": 402074,
-		"name": "SMS Emden - 埃姆登",
+		"code": "SMS Emden",
+		"name": "埃姆登",
+		"name_en": "Emden",
 		"hullType": "Light Cruiser",
 		"faction": "Iron Blood",
 		"rarity": "Super Rare",
@@ -9,6 +11,11 @@
 			"获得专属弹幕I/主炮效率提高5%",
 			"鱼雷底座+1/主炮效率提高10%",
 			"专属弹幕升级/全武器效率提高5%/鱼雷底座可同时装填"
+		],
+		"limitbreak_en": [
+			"Gain Exclusive Barrage I/main gun efficiency increased by 5%",
+			"Torpedo base +1/main gun efficiency increased by 10%",
+			"Exclusive Barrage Upgrade / All Weapon Efficiency Increased by 5% / Torpedo Base can be loaded at the same time"
 		],
 		"equip": {
 			"slot1": {
@@ -45,24 +52,32 @@
 		"skill": [
 			{
 				"name": "Eeny meeny miny moe",
+				"name_en": "Eeny meeny miny moe",
 				"type": "Red",
-				"desc": "自身副炮栏位装备轻巡主炮武器时，主炮、副炮栏位武器效率提高25.0%，战斗中每20秒，触发一轮弹幕Lv.10（弹幕威力依据技能等级），弹幕使命中的敌方单位减速30%，持续5秒；自身副炮栏位装备驱逐主炮武器时，战斗中每10秒，生成一枚可以阻挡5枚子弹的护盾，持续5秒，若护盾在持续时间内被击破，触发一轮特殊弹幕Lv.10，特殊弹幕造成伤害的15.0%回复自身耐久（弹幕威力依据技能等级）"
+				"desc": "自身副炮栏位装备轻巡主炮武器时，主炮、副炮栏位武器效率提高25.0%，战斗中每20秒，触发一轮弹幕Lv.10（弹幕威力依据技能等级），弹幕使命中的敌方单位减速30%，持续5秒；自身副炮栏位装备驱逐主炮武器时，战斗中每10秒，生成一枚可以阻挡5枚子弹的护盾，持续5秒，若护盾在持续时间内被击破，触发一轮特殊弹幕Lv.10，特殊弹幕造成伤害的15.0%回复自身耐久（弹幕威力依据技能等级）",
+				"desc_en": "When equipped with the main gun weapon of the light patrol, the efficiency of the main gun and the secondary gun weapon is increased by 25.0%, and every 20 seconds during the battle, a round of the bullet screen Lv.10 is triggered (the power of the bullet screen is based on the skill level), and enemy units in the mission of the bullet screen are slowed down by 30% for 5 seconds; when equipped with the main gun weapon of the expulsion in the secondary gun, every 10 seconds during the battle, a shield that can block 5 If the shield is broken during the duration, a round of special curtain Lv.10 will be triggered, and 15.0% of the damage done by the special curtain will be returned to its own durability (curtain power is based on skill level)"
 			},
 			{
 				"name": "往昔之影·埃姆登(?)",
+				"name_en": "Shadow of the Past - Emden(?)",
 				"type": "Yellow",
-				"desc": "战斗开始时，提升自身机动属性10.0%，战斗中自身每击破一艘敌舰，机动额外提高5.0%，最高3层；进入战斗时，若先锋舰队仅由自身组成，战斗中无视弹药匮乏效果；进入战斗时，若队伍中存在其他铁血阵营角色，开场5秒后，扣减队伍中所有铁血阵营角色11点耐久，并提高其10.0%炮击属性"
+				"desc": "战斗开始时，提升自身机动属性10.0%，战斗中自身每击破一艘敌舰，机动额外提高5.0%，最高3层；进入战斗时，若先锋舰队仅由自身组成，战斗中无视弹药匮乏效果；进入战斗时，若队伍中存在其他铁血阵营角色，开场5秒后，扣减队伍中所有铁血阵营角色11点耐久，并提高其10.0%炮击属性",
+				"desc_en": "At the start of battle, boosts your maneuvering attributes by 10.0%; for each enemy ship you break during battle, your maneuvering is increased by an additional 5.0%, up to a maximum of 3 tiers; when entering battle, if the vanguard fleet consists of only yourself, you ignore the ammo scarcity effect during battle; when entering battle, if there are other Ironborn characters in your party, 5 seconds after opening, deducts 11 points from all Ironborn characters in your party Endurance and increase their gunfire attributes by 10.0%"
 			},
 			{
 				"name": "专属弹幕-埃姆登II",
+				"name_en": "Exclusive Barrage - Emden II",
 				"type": "Red",
-				"desc": "主炮每进行10次攻击，触发专属弹幕-埃姆登II"
+				"desc": "主炮每进行10次攻击，触发专属弹幕-埃姆登II",
+				"desc_en": "For every 10 attacks made by the main cannon, trigger Exclusive Barrage - Emden II"
 			}
 		]
 	},
 	{
 		"id": 402084,
-		"name": "SMS Elbing - 埃尔宾",
+		"code": "SMS Elbing",
+		"name": "埃尔宾",
+		"name_en": "Elbing",
 		"hullType": "Light Cruiser",
 		"faction": "Iron Blood",
 		"rarity": "Elite",
@@ -70,6 +85,11 @@
 			"获得全弹发射I/主炮效率提高5%",
 			"鱼雷预装填+1/主炮效率提高10%",
 			"全弹发射弹幕升级/全武器效率提高5%"
+		],
+		"limitbreak_en": [
+			"Gain full ammo launch I/main gun efficiency increased by 5%",
+			"Torpedo Preload +1/Main Gun Efficiency 10% Increase",
+			"Full Bomb Launch Barrage Upgrade / Full Weapon Efficiency Increased by 5%"
 		],
 		"equip": {
 			"slot1": {
@@ -106,24 +126,32 @@
 		"skill": [
 			{
 				"name": "攻击！攻击！",
+				"name_en": "Attack! Attack!",
 				"type": "Yellow",
-				"desc": "战斗中，自身机动属性提高15.0%，自身装备的主炮武器每进行5次攻击，自身炮击、防空属性提高5.0%，持续至战斗结束，最高3层，防空圈内敌方飞机被击落时，炮击、防空属性提升效果直接叠加至满层"
+				"desc": "战斗中，自身机动属性提高15.0%，自身装备的主炮武器每进行5次攻击，自身炮击、防空属性提高5.0%，持续至战斗结束，最高3层，防空圈内敌方飞机被击落时，炮击、防空属性提升效果直接叠加至满层",
+				"desc_en": "During battle, your own mobility attributes increase by 15.0%, for every 5 attacks made by your own equipped main gun weapon, your own artillery and anti-aircraft attributes increase by 5.0%, lasting until the end of the battle, up to 3 levels, when enemy aircraft in the anti-aircraft circle are shot down, the artillery and anti-aircraft attribute boosting effect stacks directly to the full level"
 			},
 			{
 				"name": "往昔之影·埃尔宾",
+				"name_en": "Shadow of the Past - Elbin",
 				"type": "Red",
-				"desc": "自身受到鱼雷武器造成的伤害降低15.0%，自身装备的鱼雷武器开火时，若自身30距离内没有敌方单位，触发一轮穿甲弹弹幕Lv.10，否则触发一轮高爆弹弹幕Lv.10（弹幕威力依据技能等级）"
+				"desc": "自身受到鱼雷武器造成的伤害降低15.0%，自身装备的鱼雷武器开火时，若自身30距离内没有敌方单位，触发一轮穿甲弹弹幕Lv.10，否则触发一轮高爆弹弹幕Lv.10（弹幕威力依据技能等级）",
+				"desc_en": "Damage dealt by torpedo weapons is reduced by 15.0%, and when your equipped torpedo weapon fires, if there are no enemy units within 30 distance of you, trigger a round of Armor Piercing projectile Lv.10, otherwise trigger a round of High Explosive projectile Lv.10 (projectile power is based on skill level)"
 			},
 			{
 				"name": "全弹发射II",
+				"name_en": "Full-fire II",
 				"type": "Red",
-				"desc": "主炮每进行8次攻击，触发全弹发射-皮劳级II"
+				"desc": "主炮每进行8次攻击，触发全弹发射-皮劳级II",
+				"desc_en": "Every 8 attacks made by the main cannon triggers Full Shell Fire - Pilau Level II"
 			}
 		]
 	},
 	{
 		"id": 403114,
-		"name": "SMS Yorck - 约克",
+		"code": "SMS Yorck",
+		"name": "约克",
+		"name_en": "York",
 		"hullType": "Heavy Cruiser",
 		"faction": "Iron Blood",
 		"rarity": "Elite",
@@ -131,6 +159,11 @@
 			"获得全弹发射I/全武器效率提高2%",
 			"鱼雷底座+1/全武器效率提高3%",
 			"全弹发射弹幕升级/全武器效率提高5%"
+		],
+		"limitbreak_en": [
+			"Gain full ammo firing I / 2% increase in full weapon efficiency",
+			"Torpedo Base +1/Full Weapon Efficiency 3% Increase",
+			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
 		],
 		"equip": {
 			"slot1": {
@@ -167,24 +200,32 @@
 		"skill": [
 			{
 				"name": "精准射击",
+				"name_en": "precision shooting",
 				"type": "Yellow",
-				"desc": "自身炮击、命中属性提高15.0%；自身对驱逐舰的命中率提高10.0%"
+				"desc": "自身炮击、命中属性提高15.0%；自身对驱逐舰的命中率提高10.0%",
+				"desc_en": "Own gunfire and hit attributes increased by 15.0%; own hit rate against destroyers increased by 10.0%"
 			},
 			{
 				"name": "往昔之影·约克",
+				"name_en": "Shadow of the Past - York",
 				"type": "Blue",
-				"desc": "自身受到的雷击伤害降低15.0%；战斗开始后每20秒生成一枚可以阻挡3枚鱼雷的护盾，持续20秒"
+				"desc": "自身受到的雷击伤害降低15.0%；战斗开始后每20秒生成一枚可以阻挡3枚鱼雷的护盾，持续20秒",
+				"desc_en": "Self takes 15.0% less damage from lightning strikes; generates a shield that blocks 3 torpedoes every 20 seconds after battle begins for 20 seconds"
 			},
 			{
 				"name": "全弹发射II",
+				"name_en": "Full Bomb Launch II",
 				"type": "Red",
-				"desc": "主炮每进行6次攻击，触发全弹发射-罗恩级II"
+				"desc": "主炮每进行6次攻击，触发全弹发射-罗恩级II",
+				"desc_en": "Every 6 attacks made by the main gun triggers Full Fire - Roan Class II"
 			}
 		]
 	},
 	{
 		"id": 403124,
-		"name": "KMS Prinz Eugen - 小欧根",
+		"code": "KMS Prinz Eugen",
+		"name": "小欧根",
+		"name_en": "Little Eugen",
 		"hullType": "Heavy Cruiser",
 		"faction": "Iron Blood",
 		"rarity": "Elite",
@@ -192,6 +233,11 @@
 			"获得全弹发射I/全武器效率提高2%",
 			"鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
 			"全弹发射弹幕升级/全武器效率提高5%"
+		],
+		"limitbreak_en": [
+			"Gain full ammo launch I / 2% increase in full weapon efficiency",
+			"Torpedo Base +1/Torpedo Preload +1/Full Weapon Efficiency 3% Increase",
+			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
 		],
 		"equip": {
 			"slot1": {
@@ -228,19 +274,25 @@
 		"skill": [
 			{
 				"name": "不破之盾盾盾！",
+				"name_en": "Unbreakable shield shield shield!",
 				"type": "Blue",
-				"desc": "战斗开始时，生成一组旋转的护盾，每个蓝色护盾可阻挡4发子弹，每个紫色护盾可阻挡2枚鱼雷，每个红色护盾可以通过碰撞造成最多6次伤害，护盾持续10.0秒，每隔30秒再次生成该护盾"
+				"desc": "战斗开始时，生成一组旋转的护盾，每个蓝色护盾可阻挡4发子弹，每个紫色护盾可阻挡2枚鱼雷，每个红色护盾可以通过碰撞造成最多6次伤害，护盾持续10.0秒，每隔30秒再次生成该护盾",
+				"desc_en": "At the start of combat, generate a rotating set of shields, each blue shield can block 4 rounds, each purple shield can block 2 torpedoes, each red shield can deal up to 6 damage by collision, the shield lasts 10.0 seconds and is generated again every 30 seconds"
 			},
 			{
 				"name": "全弹发射II",
+				"name_en": "Full Bomb Launch II",
 				"type": "Red",
-				"desc": "主炮每进行6次攻击，触发全弹发射-希佩尔海军上将级II"
+				"desc": "主炮每进行6次攻击，触发全弹发射-希佩尔海军上将级II",
+				"desc_en": "Every 6 attacks made by the main gun triggers Full Fire - Admiral Hipper Class II"
 			}
 		]
 	},
 	{
 		"id": 404034,
-		"name": "SMS Seydlitz - 塞德利茨",
+		"code": "SMS Seydlitz",
+		"name": "塞德利茨",
+		"name_en": "cedlitz",
 		"hullType": "Battlecruiser",
 		"faction": "Iron Blood",
 		"rarity": "Super Rare",
@@ -248,6 +300,11 @@
 			"主炮底座+1/主炮效率提高5%",
 			"副炮底座+1/主炮效率提高10%",
 			"主炮底座+1/主炮效率提高15%"
+		],
+		"limitbreak_en": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
 		],
 		"equip": {
 			"slot1": {
@@ -284,24 +341,32 @@
 		"skill": [
 			{
 				"name": "铁血大将",
+				"name_en": "Iron General",
 				"type": "Red",
-				"desc": "战斗开始时，若队伍中存在至少2个铁血阵营的角色，自身炮击、装填属性提高18%；\n战斗开始时，自身耐久越高，自身首轮主炮装填时间越少（最少为20%，最多为80.0%）；\n战斗中，自身承受主力编队中其他铁血阵营角色所受伤害的60.0%，并降低受到该伤害的20.0%，承受伤害效果会在触发【不沉的传奇】后失效"
+				"desc": "战斗开始时，若队伍中存在至少2个铁血阵营的角色，自身炮击、装填属性提高18%；\n战斗开始时，自身耐久越高，自身首轮主炮装填时间越少（最少为20%，最多为80.0%）；\n战斗中，自身承受主力编队中其他铁血阵营角色所受伤害的60.0%，并降低受到该伤害的20.0%，承受伤害效果会在触发【不沉的传奇】后失效",
+				"desc_en": "At the start of battle, if there are at least 2 characters from the Ironborn camp in your party, your own artillery and reloading attributes are increased by 18%; \n the higher your own durability at the start of battle, the less time you take to reload your own first round main gun (minimum 20%, maximum 80.0%); \n during battle, you take 60.0% of the damage taken by other Ironborn camp characters in your main formation and reduce 20.0% of the damage taken by that damage, the effect of taking damage will expire after triggering [Unsinkable Legend]"
 			},
 			{
 				"name": "不沉的传奇",
+				"name_en": "Unsinkable Legend",
 				"type": "Blue",
-				"desc": "受到致命伤害时回避本次伤害，不会阵亡，10秒内回避所有伤害，回复自身22.0%最大耐久值，并降低自己受到伤害的5%，持续至战斗结束，该效果每场战斗只能触发一次；\n战斗中自身耐久越高，造成的伤害越高，最多提高20.0%；\n自身耐久越低，自身受到的伤害越低，最多降低20.0%（不能降低来自【铁血大将】中承受其他角色的伤害）"
+				"desc": "受到致命伤害时回避本次伤害，不会阵亡，10秒内回避所有伤害，回复自身22.0%最大耐久值，并降低自己受到伤害的5%，持续至战斗结束，该效果每场战斗只能触发一次；\n战斗中自身耐久越高，造成的伤害越高，最多提高20.0%；\n自身耐久越低，自身受到的伤害越低，最多降低20.0%（不能降低来自【铁血大将】中承受其他角色的伤害）",
+				"desc_en": "Evade this damage when taking lethal damage, will not die in battle, evade all damage for 10 seconds, restore your own 22.0% maximum durability value, and reduce the damage you take by 5%, lasting until the end of the battle, this effect can only be triggered once per battle; \n the higher your durability in battle, the higher the damage you deal, up to 20.0% higher; \n the lower your durability, the lower the damage you The lower your own durability, the lower the damage you take, up to a maximum of 20.0% lower (can not reduce the damage from [Iron General] in taking other characters)"
 			},
 			{
 				"name": "往昔之影·塞德利茨",
+				"name_en": "Shadow of the Past - Seidlitz",
 				"type": "Yellow",
-				"desc": "自身首轮主炮发射时触发一轮特殊弹幕Lv.10；\n战斗开始时，若自身不处于旗舰位置且旗舰位置角色拥有【往昔之影】技能，该角色耐久越高，该角色首轮主炮装填时间越少（最少为20%，最多为80.0%）"
+				"desc": "自身首轮主炮发射时触发一轮特殊弹幕Lv.10；\n战斗开始时，若自身不处于旗舰位置且旗舰位置角色拥有【往昔之影】技能，该角色耐久越高，该角色首轮主炮装填时间越少（最少为20%，最多为80.0%）",
+				"desc_en": "own first round of main gun firing triggers a round of special projectile Lv.10; \n the beginning of the battle, if you are not in the flagship position and the flagship position character has the [Shadow of the Past] skill, the higher the durability of the character, the less the character's first round of main gun loading time (minimum 20%, maximum 80.0%)"
 			}
 		]
 	},
 	{
 		"id": 404044,
-		"name": "SMS Lützow - 吕佐夫",
+		"code": "SMS Lützow",
+		"name": "吕佐夫",
+		"name_en": "Luzov",
 		"hullType": "Battlecruiser",
 		"faction": "Iron Blood",
 		"rarity": "Super Rare",
@@ -309,6 +374,11 @@
 			"主炮底座+1/主炮效率提高5%",
 			"副炮底座+1/主炮效率提高10%",
 			"主炮底座+1/主炮效率提高15%"
+		],
+		"limitbreak_en": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
 		],
 		"equip": {
 			"slot1": {
@@ -345,24 +415,32 @@
 		"skill": [
 			{
 				"name": "斯卡格拉克的勇气",
+				"name_en": "Skagrak's Courage",
 				"type": "Red",
-				"desc": "战斗开始后，自身主炮伤害提高10.0%；主炮开火时，有70.0%概率朝自己前方发射一轮特殊弹幕Lv.10（威力和样式依据技能等级）"
+				"desc": "战斗开始后，自身主炮伤害提高10.0%；主炮开火时，有70.0%概率朝自己前方发射一轮特殊弹幕Lv.10（威力和样式依据技能等级）",
+				"desc_en": "When battle begins, your own main cannon damage is increased by 10.0%; when the main cannon fires, it has a 70.0% chance of firing a round of special projectiles Lv.10 in front of you (power and style based on skill level)"
 			},
 			{
 				"name": "狩猎时刻",
+				"name_en": "Hunting Hour",
 				"type": "Yellow",
-				"desc": "自身在战斗中击破敌舰时，自身炮击、命中属性提高5.0%，最多叠加3次，当效果叠加至3层时，自身装填属性提高15.0%"
+				"desc": "自身在战斗中击破敌舰时，自身炮击、命中属性提高5.0%，最多叠加3次，当效果叠加至3层时，自身装填属性提高15.0%",
+				"desc_en": "When you break an enemy ship in battle, your gunfire and hit attributes increase by 5.0%, stacking up to 3 times, and when the effect stacks to 3 levels, your loadout attributes increase by 15.0%"
 			},
 			{
 				"name": "往昔之影·吕佐夫",
+				"name_en": "Shadow of the Past - Luzov",
 				"type": "Red",
-				"desc": "自身对战列、战巡的伤害提高10.0%，若敌方单位在受到自身伤害后5秒内被击破可视为被自身击破；自身装备半穿甲弹及穿甲弹主炮命中敌方单位时，同时降低其炮击、命中属性10.0%，持续3秒，效果结束后有10%的概率对其造成3000点伤害"
+				"desc": "自身对战列、战巡的伤害提高10.0%，若敌方单位在受到自身伤害后5秒内被击破可视为被自身击破；自身装备半穿甲弹及穿甲弹主炮命中敌方单位时，同时降低其炮击、命中属性10.0%，持续3秒，效果结束后有10%的概率对其造成3000点伤害",
+				"desc_en": "10.0% increase in damage to battlecruisers and battlecruisers; if an enemy unit is broken within 5 seconds of being damaged by itself, it is considered to be broken by itself; when an enemy unit is hit by its own semi-armor piercing ammunition and armor piercing ammunition main gun, it also reduces its gunfire and hitting attributes by 10.0% for 3 seconds, with a 10% chance of dealing 3000 damage to it after the effect ends"
 			}
 		]
 	},
 	{
 		"id": 405044,
-		"name": "SMS Thüringen - 图林根",
+		"code": "SMS Thüringen",
+		"name": "图林根",
+		"name_en": "Thuringia",
 		"hullType": "Battleship",
 		"faction": "Iron Blood",
 		"rarity": "Elite",
@@ -370,6 +448,11 @@
 			"主炮底座+1/主炮效率提高5%",
 			"副炮底座+1/主炮效率提高10%",
 			"主炮底座+1/主炮效率提高15%"
+		],
+		"limitbreak_en": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
 		],
 		"equip": {
 			"slot1": {
@@ -406,13 +489,17 @@
 		"skill": [
 			{
 				"name": "长夜星灯",
+				"name_en": "Long Night Starlight",
 				"type": "Yellow",
-				"desc": "战斗中自身主炮每次装填完毕时有70.0%概率触发一轮特殊弹幕Lv.10（弹幕威力依据技能等级）,被特殊弹幕中蓝色子弹命中的敌方单位在接下来的10秒内机动属性降低8%，受到来自我方主力编队中铁血阵营角色的伤害提升12.0%"
+				"desc": "战斗中自身主炮每次装填完毕时有70.0%概率触发一轮特殊弹幕Lv.10（弹幕威力依据技能等级）,被特殊弹幕中蓝色子弹命中的敌方单位在接下来的10秒内机动属性降低8%，受到来自我方主力编队中铁血阵营角色的伤害提升12.0%",
+				"desc_en": "Each time your main cannon is reloaded during battle, you have a 70.0% chance of triggering a special barrage Lv.10 (barrage power is based on skill level), enemy units hit by blue bullets in the special barrage have their mobility reduced by 8% for the next 10 seconds, and take 12.0% more damage from Ironborn characters in our main formation"
 			},
 			{
 				"name": "往昔之影·图林根",
+				"name_en": "Shadow of the Past - Thuringia",
 				"type": "Red",
-				"desc": "自身第二武器栏位装备铁血武器时，该武器开火有70.0%概率额外发射2组炮弹，该效果每10秒最多触发一次"
+				"desc": "自身第二武器栏位装备铁血武器时，该武器开火有70.0%概率额外发射2组炮弹，该效果每10秒最多触发一次",
+				"desc_en": "When your second weapon is equipped with an Ironborn weapon, there is a 70.0% chance that the weapon will fire 2 additional rounds, and this effect will trigger once every 10 seconds at most."
 			}
 		]
 	}
