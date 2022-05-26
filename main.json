@@ -1,505 +1,438 @@
 [
 	{
-		"id": 402074,
-		"code": "SMS Emden",
-		"name": "埃姆登",
-		"name_en": "Emden",
-		"hullType": "Light Cruiser",
-		"faction": "Iron Blood",
+		"id": 201344,
+		"code": "HMS Jervis",
+		"name": "贾维斯",
+		"name_en": "Jarvis",
+		"hullType": "Destroyer",
+		"faction": "Royal Navy",
 		"rarity": "Super Rare",
 		"limitbreak": [
 			"获得专属弹幕I/主炮效率提高5%",
-			"鱼雷底座+1/主炮效率提高10%",
-			"专属弹幕升级/全武器效率提高5%/鱼雷底座可同时装填"
+			"鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+			"专属弹幕升级/全武器效率提高5%"
 		],
 		"limitbreak_en": [
-			"Gain Exclusive Barrage I/main gun efficiency increased by 5%",
-			"Torpedo base +1/main gun efficiency increased by 10%",
-			"Exclusive Barrage Upgrade / All Weapon Efficiency Increased by 5% / Torpedo Base can be loaded at the same time"
+			"Gain Exclusive Barrage I/Main Gun efficiency increased by 5%",
+			"Torpedo base +1/Torpedo preload +1/Main gun efficiency increased by 10%",
+			"Exclusive catapult upgrade / 5% increase in all weapons efficiency"
 		],
 		"equip": {
 			"slot1": {
 				"type": "DD Guns",
-				"efficiency": "120%",
-				"count": 1
-			},
-			"slot2": {
-				"type": "DD Guns/CL Guns",
-				"efficiency": "75%",
-				"count": 1
-			},
-			"slot3": {
-				"type": "Torpedoes",
-				"efficiency": "100%",
-				"count": 2
-			}
-		},
-		"stats": {
-			"health": 3805,
-			"armor": "Light",
-			"firepower": 159,
-			"torpedo": 293,
-			"antiAir": 305,
-			"aviation": 0,
-			"reload": 204,
-			"hit": 171,
-			"evasion": 110,
-			"speed": 23,
-			"luck": 85,
-			"asw": 92,
-			"cost": 12
-		},
-		"skill": [
-			{
-				"name": "Eeny meeny miny moe",
-				"name_en": "Eeny meeny miny moe",
-				"type": "Red",
-				"desc": "自身副炮栏位装备轻巡主炮武器时，主炮、副炮栏位武器效率提高25.0%，战斗中每20秒，触发一轮弹幕Lv.10（弹幕威力依据技能等级），弹幕使命中的敌方单位减速30%，持续5秒；自身副炮栏位装备驱逐主炮武器时，战斗中每10秒，生成一枚可以阻挡5枚子弹的护盾，持续5秒，若护盾在持续时间内被击破，触发一轮特殊弹幕Lv.10，特殊弹幕造成伤害的15.0%回复自身耐久（弹幕威力依据技能等级）",
-				"desc_en": "When equipped with the main gun weapon of the light patrol, the efficiency of the main gun and the secondary gun weapon is increased by 25.0%, and every 20 seconds during the battle, a round of the bullet screen Lv.10 is triggered (the power of the bullet screen is based on the skill level), and enemy units in the mission of the bullet screen are slowed down by 30% for 5 seconds; when equipped with the main gun weapon of the expulsion in the secondary gun, every 10 seconds during the battle, a shield that can block 5 If the shield is broken during the duration, a round of special curtain Lv.10 will be triggered, and 15.0% of the damage done by the special curtain will be returned to its own durability (curtain power is based on skill level)"
-			},
-			{
-				"name": "往昔之影·埃姆登(?)",
-				"name_en": "Shadow of the Past - Emden(?)",
-				"type": "Yellow",
-				"desc": "战斗开始时，提升自身机动属性10.0%，战斗中自身每击破一艘敌舰，机动额外提高5.0%，最高3层；进入战斗时，若先锋舰队仅由自身组成，战斗中无视弹药匮乏效果；进入战斗时，若队伍中存在其他铁血阵营角色，开场5秒后，扣减队伍中所有铁血阵营角色11点耐久，并提高其10.0%炮击属性",
-				"desc_en": "At the start of battle, boosts your maneuvering attributes by 10.0%; for each enemy ship you break during battle, your maneuvering is increased by an additional 5.0%, up to a maximum of 3 tiers; when entering battle, if the vanguard fleet consists of only yourself, you ignore the ammo scarcity effect during battle; when entering battle, if there are other Ironborn characters in your party, 5 seconds after opening, deducts 11 points from all Ironborn characters in your party Endurance and increase their gunfire attributes by 10.0%"
-			},
-			{
-				"name": "专属弹幕-埃姆登II",
-				"name_en": "Exclusive Barrage - Emden II",
-				"type": "Red",
-				"desc": "主炮每进行10次攻击，触发专属弹幕-埃姆登II",
-				"desc_en": "For every 10 attacks made by the main cannon, trigger Exclusive Barrage - Emden II"
-			}
-		]
-	},
-	{
-		"id": 402084,
-		"code": "SMS Elbing",
-		"name": "埃尔宾",
-		"name_en": "Elbing",
-		"hullType": "Light Cruiser",
-		"faction": "Iron Blood",
-		"rarity": "Elite",
-		"limitbreak": [
-			"获得全弹发射I/主炮效率提高5%",
-			"鱼雷预装填+1/主炮效率提高10%",
-			"全弹发射弹幕升级/全武器效率提高5%"
-		],
-		"limitbreak_en": [
-			"Gain full ammo launch I/main gun efficiency increased by 5%",
-			"Torpedo Preload +1/Main Gun Efficiency 10% Increase",
-			"Full Bomb Launch Barrage Upgrade / Full Weapon Efficiency Increased by 5%"
-		],
-		"equip": {
-			"slot1": {
-				"type": "CL Guns",
-				"efficiency": "120%",
-				"count": 1
-			},
-			"slot2": {
-				"type": "Torpedoes",
-				"efficiency": "135%",
-				"count": 1
-			},
-			"slot3": {
-				"type": "DD Guns/AA Guns",
-				"efficiency": "55%",
-				"count": 1
-			}
-		},
-		"stats": {
-			"health": 3450,
-			"armor": "Light",
-			"firepower": 128,
-			"torpedo": 215,
-			"antiAir": 295,
-			"aviation": 0,
-			"reload": 202,
-			"hit": 156,
-			"evasion": 120,
-			"speed": 27,
-			"luck": 30,
-			"asw": 82,
-			"cost": 11
-		},
-		"skill": [
-			{
-				"name": "攻击！攻击！",
-				"name_en": "Attack! Attack!",
-				"type": "Yellow",
-				"desc": "战斗中，自身机动属性提高15.0%，自身装备的主炮武器每进行5次攻击，自身炮击、防空属性提高5.0%，持续至战斗结束，最高3层，防空圈内敌方飞机被击落时，炮击、防空属性提升效果直接叠加至满层",
-				"desc_en": "During battle, your own mobility attributes increase by 15.0%, for every 5 attacks made by your own equipped main gun weapon, your own artillery and anti-aircraft attributes increase by 5.0%, lasting until the end of the battle, up to 3 levels, when enemy aircraft in the anti-aircraft circle are shot down, the artillery and anti-aircraft attribute boosting effect stacks directly to the full level"
-			},
-			{
-				"name": "往昔之影·埃尔宾",
-				"name_en": "Shadow of the Past - Elbin",
-				"type": "Red",
-				"desc": "自身受到鱼雷武器造成的伤害降低15.0%，自身装备的鱼雷武器开火时，若自身30距离内没有敌方单位，触发一轮穿甲弹弹幕Lv.10，否则触发一轮高爆弹弹幕Lv.10（弹幕威力依据技能等级）",
-				"desc_en": "Damage dealt by torpedo weapons is reduced by 15.0%, and when your equipped torpedo weapon fires, if there are no enemy units within 30 distance of you, trigger a round of Armor Piercing projectile Lv.10, otherwise trigger a round of High Explosive projectile Lv.10 (projectile power is based on skill level)"
-			},
-			{
-				"name": "全弹发射II",
-				"name_en": "Full-fire II",
-				"type": "Red",
-				"desc": "主炮每进行8次攻击，触发全弹发射-皮劳级II",
-				"desc_en": "Every 8 attacks made by the main cannon triggers Full Shell Fire - Pilau Level II"
-			}
-		]
-	},
-	{
-		"id": 403114,
-		"code": "SMS Yorck",
-		"name": "约克",
-		"name_en": "York",
-		"hullType": "Heavy Cruiser",
-		"faction": "Iron Blood",
-		"rarity": "Elite",
-		"limitbreak": [
-			"获得全弹发射I/全武器效率提高2%",
-			"鱼雷底座+1/全武器效率提高3%",
-			"全弹发射弹幕升级/全武器效率提高5%"
-		],
-		"limitbreak_en": [
-			"Gain full ammo firing I / 2% increase in full weapon efficiency",
-			"Torpedo Base +1/Full Weapon Efficiency 3% Increase",
-			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
-		],
-		"equip": {
-			"slot1": {
-				"type": "CA Guns",
-				"efficiency": "120%",
-				"count": 1
-			},
-			"slot2": {
-				"type": "DD Guns/CL Guns",
-				"efficiency": "60%",
-				"count": 1
-			},
-			"slot3": {
-				"type": "Torpedoes",
-				"efficiency": "110%",
-				"count": 2
-			}
-		},
-		"stats": {
-			"health": 4846,
-			"armor": "Medium",
-			"firepower": 232,
-			"torpedo": 164,
-			"antiAir": 175,
-			"aviation": 0,
-			"reload": 177,
-			"hit": 134,
-			"evasion": 66,
-			"speed": 16,
-			"luck": 28,
-			"asw": 0,
-			"cost": 12
-		},
-		"skill": [
-			{
-				"name": "精准射击",
-				"name_en": "precision shooting",
-				"type": "Yellow",
-				"desc": "自身炮击、命中属性提高15.0%；自身对驱逐舰的命中率提高10.0%",
-				"desc_en": "Own gunfire and hit attributes increased by 15.0%; own hit rate against destroyers increased by 10.0%"
-			},
-			{
-				"name": "往昔之影·约克",
-				"name_en": "Shadow of the Past - York",
-				"type": "Blue",
-				"desc": "自身受到的雷击伤害降低15.0%；战斗开始后每20秒生成一枚可以阻挡3枚鱼雷的护盾，持续20秒",
-				"desc_en": "Self takes 15.0% less damage from lightning strikes; generates a shield that blocks 3 torpedoes every 20 seconds after battle begins for 20 seconds"
-			},
-			{
-				"name": "全弹发射II",
-				"name_en": "Full Bomb Launch II",
-				"type": "Red",
-				"desc": "主炮每进行6次攻击，触发全弹发射-罗恩级II",
-				"desc_en": "Every 6 attacks made by the main gun triggers Full Fire - Roan Class II"
-			}
-		]
-	},
-	{
-		"id": 403124,
-		"code": "KMS Prinz Eugen",
-		"name": "小欧根",
-		"name_en": "Little Eugen",
-		"hullType": "Heavy Cruiser",
-		"faction": "Iron Blood",
-		"rarity": "Elite",
-		"limitbreak": [
-			"获得全弹发射I/全武器效率提高2%",
-			"鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
-			"全弹发射弹幕升级/全武器效率提高5%"
-		],
-		"limitbreak_en": [
-			"Gain full ammo launch I / 2% increase in full weapon efficiency",
-			"Torpedo Base +1/Torpedo Preload +1/Full Weapon Efficiency 3% Increase",
-			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
-		],
-		"equip": {
-			"slot1": {
-				"type": "CA Guns",
 				"efficiency": "125%",
 				"count": 1
 			},
 			"slot2": {
 				"type": "Torpedoes",
-				"efficiency": "160%",
+				"efficiency": "155%",
 				"count": 2
 			},
 			"slot3": {
 				"type": "AA Guns",
-				"efficiency": "120%",
+				"efficiency": "105%",
 				"count": 1
 			}
 		},
 		"stats": {
-			"health": 6182,
-			"armor": "Medium",
-			"firepower": 229,
-			"torpedo": 150,
-			"antiAir": 202,
+			"health": 2087,
+			"armor": "Light",
+			"firepower": 120,
+			"torpedo": 477,
+			"antiAir": 204,
 			"aviation": 0,
-			"reload": 178,
-			"hit": 131,
-			"evasion": 62,
-			"speed": 25,
-			"luck": 78,
-			"asw": 0,
-			"cost": 12
+			"reload": 232,
+			"hit": 231,
+			"evasion": 271,
+			"speed": 43,
+			"luck": 92,
+			"asw": 247,
+			"cost": 11
 		},
 		"skill": [
 			{
-				"name": "不破之盾盾盾！",
-				"name_en": "Unbreakable shield shield shield!",
+				"name": "携手同行",
+				"name_en": "Hand in hand",
+				"type": "Yellow",
+				"desc": "战斗中，自身炮击、反潜属性提升10.0%；战斗开始后20秒，回复所有先锋舰队5.0%最大耐久；战斗开始时，若队伍中存在至少3个皇家阵营角色，队伍中皇家阵营驱逐舰反潜、炮击、雷击属性提升10.0%",
+				"desc_en": "During battle, its own gunfire and anti-submarine attributes are increased by 10.0%; 20 seconds after the start of battle, restore 5.0% maximum durability to all Vanguard fleets; at the start of battle, if there are at least 3 Royal Camp characters in the team, the anti-submarine, gunfire and lightning attributes of Royal Camp destroyers in the team are increased by 10.0%"
+			},
+			{
+				"name": "幸运到临",
+				"name_en": "Lucky Arrival",
 				"type": "Blue",
-				"desc": "战斗开始时，生成一组旋转的护盾，每个蓝色护盾可阻挡4发子弹，每个紫色护盾可阻挡2枚鱼雷，每个红色护盾可以通过碰撞造成最多6次伤害，护盾持续10.0秒，每隔30秒再次生成该护盾",
-				"desc_en": "At the start of combat, generate a rotating set of shields, each blue shield can block 4 rounds, each purple shield can block 2 torpedoes, each red shield can deal up to 6 damage by collision, the shield lasts 10.0 seconds and is generated again every 30 seconds"
+				"desc": "战斗中，自身受到的航空伤害降低10.0%；战斗开始时，若先锋舰队中没有除驱逐舰、轻巡洋舰以外的其他舰种角色，自身雷击属性提升10.0%，自身受到的雷击伤害降低20.0%；战斗开始时，若先锋编队满编且自身位于领舰位置，本场战斗中自身受到伤害时有15%概率触发，自身回避率提升30.0%，持续10秒，该效果每20秒最多触发一次",
+				"desc_en": "During the battle, the air damage you take is reduced by 10.0%; at the beginning of the battle, if there is no other ship in the vanguard fleet except destroyers and light cruisers, your lightning attack attribute is increased by 10.0%, and the lightning damage you take is reduced by 20.0%; at the beginning of the battle, if the vanguard formation is full and you are in the lead ship position, when you take damage during this battle, you have 15% chance to trigger, own evasion rate increased by 30.0% for 10 seconds, the effect is triggered once every 20 seconds at most"
+			},
+			{
+				"name": "专属弹幕-贾维斯II",
+				"name_en": "Exclusive Bullet - Jarvis II",
+				"type": "Red",
+				"desc": "主炮每进行10次攻击，触发专属弹幕-贾维斯II",
+				"desc_en": "Triggers Exclusive Barrage - Jarvis II for every 10 attacks made by the main cannon"
+			}
+		]
+	},
+	{
+		"id": 202314,
+		"code": "HMS Bellona ",
+		"name": "司战女神",
+		"name_en": "Seiji War Goddess",
+		"hullType": "Light Cruiser",
+		"faction": "Royal Navy",
+		"rarity": "Elite",
+		"limitbreak": [
+			"获得全弹发射I/主炮效率提高5%",
+			"鱼雷底座+1/鱼雷预装填+1/防空炮效率提高10%",
+			"全弹发射弹幕升级/主炮效率提高15%"
+		],
+		"limitbreak_en": [
+			"Gain full ammo launch I/main gun efficiency increased by 5%",
+			"Torpedo Base +1/Torpedo Preload +1/Air Defense Gun Efficiency 10% Increase",
+			"Full Bomb Launch Barrage Upgrade/Main Gun Efficiency Increased by 15%"
+		],
+		"equip": {
+			"slot1": {
+				"type": "DD Guns/CL Guns",
+				"efficiency": "135%",
+				"count": 1
+			},
+			"slot2": {
+				"type": "Torpedoes",
+				"efficiency": "125%",
+				"count": 2
+			},
+			"slot3": {
+				"type": "AA Guns",
+				"efficiency": "150%",
+				"count": 1
+			}
+		},
+		"stats": {
+			"health": 3877,
+			"armor": "Light",
+			"firepower": 148,
+			"torpedo": 166,
+			"antiAir": 419,
+			"aviation": 0,
+			"reload": 182,
+			"hit": 176,
+			"evasion": 115,
+			"speed": 32,
+			"luck": 56,
+			"asw": 142,
+			"cost": 11
+		},
+		"skill": [
+			{
+				"name": "Duellona",
+				"name_en": "Duellona",
+				"type": "Blue",
+				"desc": "战斗中，自身防空、机动属性提升20.0%；战斗开始时，若队伍中存在至少3个皇家阵营角色，队伍中皇家阵营驱逐舰防空提升15.0%，自身防空武器效率提升15.0%",
+				"desc_en": "During battle, its own air defense and maneuvering attributes are increased by 20.0%; at the start of battle, if there are at least 3 Royal Camp characters in the party, the Royal Camp destroyers in the party have their air defense increased by 15.0% and their own air defense weapon efficiency increased by 15.0%"
+			},
+			{
+				"name": "空袭引导",
+				"name_en": "Air Raid Guidance",
+				"type": "Yellow",
+				"desc": "在队伍中(存活)时增加轻航、正航空袭造成的伤害15%，同技能效果不叠加",
+				"desc_en": "Increases damage dealt by light and positive air raids by 15% while in a team (surviving), same skill effects do not stack"
 			},
 			{
 				"name": "全弹发射II",
 				"name_en": "Full Bomb Launch II",
 				"type": "Red",
-				"desc": "主炮每进行6次攻击，触发全弹发射-希佩尔海军上将级II",
-				"desc_en": "Every 6 attacks made by the main gun triggers Full Fire - Admiral Hipper Class II"
+				"desc": "主炮每进行10次攻击，触发全弹发射-黛朵级II",
+				"desc_en": "Every 10 attacks made by the main cannon triggers Full Bombshell Launch - Dido Class II"
 			}
 		]
 	},
 	{
-		"id": 404034,
-		"code": "SMS Seydlitz",
-		"name": "塞德利茨",
-		"name_en": "cedlitz",
-		"hullType": "Battlecruiser",
-		"faction": "Iron Blood",
-		"rarity": "Super Rare",
+		"id": 203104,
+		"code": "HMS Cheshire",
+		"name": "小柴郡",
+		"name_en": "小柴郡",
+		"hullType": "Heavy Cruiser",
+		"faction": "Royal Navy",
+		"rarity": "Elite",
 		"limitbreak": [
-			"主炮底座+1/主炮效率提高5%",
-			"副炮底座+1/主炮效率提高10%",
-			"主炮底座+1/主炮效率提高15%"
+			"获得专属弹幕I/主炮效率提高10%",
+			"防空炮底座+1/防空炮效率提高10%",
+			"专属弹幕升级/全武器效率提高5%"
 		],
 		"limitbreak_en": [
-			"Main gun base +1/main gun efficiency increased by 5%",
-			"Secondary gun base +1/main gun efficiency increased by 10%",
-			"Main gun base +1/main gun efficiency increased by 15%"
+			"Gain Exclusive Barrage I/Increase main gun efficiency by 10%",
+			"Anti-aircraft gun base +1/anti-aircraft gun efficiency increased by 10%",
+			"Exclusive Barrage Upgrade/Increased efficiency of all weapons by 5%"
 		],
 		"equip": {
 			"slot1": {
-				"type": "BB Guns",
+				"type": "CA Guns",
 				"efficiency": "140%",
 				"count": 1
 			},
 			"slot2": {
-				"type": "DD Guns/CL Guns",
-				"efficiency": "170%",
-				"count": 2
+				"type": "Torpedoes",
+				"efficiency": "150%",
+				"count": 1
 			},
 			"slot3": {
-				"type": "DD Guns/AA Guns",
-				"efficiency": "70%",
-				"count": 1
+				"type": "AA Guns",
+				"efficiency": "155%",
+				"count": 2
 			}
 		},
 		"stats": {
-			"health": 7537,
-			"armor": "Heavy",
-			"firepower": 389,
-			"torpedo": 181,
-			"antiAir": 270,
+			"health": 4522,
+			"armor": "Medium",
+			"firepower": 253,
+			"torpedo": 197,
+			"antiAir": 403,
 			"aviation": 0,
-			"reload": 151,
-			"hit": 69,
-			"evasion": 34,
-			"speed": 26,
-			"luck": 83,
+			"reload": 144,
+			"hit": 127,
+			"evasion": 66,
+			"speed": 27,
+			"luck": 0,
 			"asw": 0,
-			"cost": 15
+			"cost": 12
 		},
 		"skill": [
 			{
-				"name": "铁血大将",
-				"name_en": "Iron General",
+				"name": "Grin and Love！",
+				"name_en": "Grin and Love!",
 				"type": "Red",
-				"desc": "战斗开始时，若队伍中存在至少2个铁血阵营的角色，自身炮击、装填属性提高18%；\n战斗开始时，自身耐久越高，自身首轮主炮装填时间越少（最少为20%，最多为80.0%）；\n战斗中，自身承受主力编队中其他铁血阵营角色所受伤害的60.0%，并降低受到该伤害的20.0%，承受伤害效果会在触发【不沉的传奇】后失效",
-				"desc_en": "At the start of battle, if there are at least 2 characters from the Ironborn camp in your party, your own artillery and reloading attributes are increased by 18%; \n the higher your own durability at the start of battle, the less time you take to reload your own first round main gun (minimum 20%, maximum 80.0%); \n during battle, you take 60.0% of the damage taken by other Ironborn camp characters in your main formation and reduce 20.0% of the damage taken by that damage, the effect of taking damage will expire after triggering [Unsinkable Legend]"
+				"desc": "战斗开始后3秒触发一轮弹幕Lv.10（弹幕威力与样式依据技能等级），之后每15秒再次触发该弹幕，每次触发该弹幕时，自身防空属性提15.0%，持续10秒",
+				"desc_en": "Triggers a round of Barrage Lv.10 3 seconds after the start of battle (Barrage power and style based on skill level), after which it triggers again every 15 seconds, and each time it triggers the Barrage, its own anti-aircraft properties are raised by 15.0% for 10 seconds"
 			},
 			{
-				"name": "不沉的传奇",
-				"name_en": "Unsinkable Legend",
-				"type": "Blue",
-				"desc": "受到致命伤害时回避本次伤害，不会阵亡，10秒内回避所有伤害，回复自身22.0%最大耐久值，并降低自己受到伤害的5%，持续至战斗结束，该效果每场战斗只能触发一次；\n战斗中自身耐久越高，造成的伤害越高，最多提高20.0%；\n自身耐久越低，自身受到的伤害越低，最多降低20.0%（不能降低来自【铁血大将】中承受其他角色的伤害）",
-				"desc_en": "Evade this damage when taking lethal damage, will not die in battle, evade all damage for 10 seconds, restore your own 22.0% maximum durability value, and reduce the damage you take by 5%, lasting until the end of the battle, this effect can only be triggered once per battle; \n the higher your durability in battle, the higher the damage you deal, up to 20.0% higher; \n the lower your durability, the lower the damage you The lower your own durability, the lower the damage you take, up to a maximum of 20.0% lower (can not reduce the damage from [Iron General] in taking other characters)"
-			},
-			{
-				"name": "往昔之影·塞德利茨",
-				"name_en": "Shadow of the Past - Seidlitz",
+				"name": "柴郡 Up！Up！Up！",
+				"name_en": "Cheshire Up!",
 				"type": "Yellow",
-				"desc": "自身首轮主炮发射时触发一轮特殊弹幕Lv.10；\n战斗开始时，若自身不处于旗舰位置且旗舰位置角色拥有【往昔之影】技能，该角色耐久越高，该角色首轮主炮装填时间越少（最少为20%，最多为80.0%）",
-				"desc_en": "own first round of main gun firing triggers a round of special projectile Lv.10; \n the beginning of the battle, if you are not in the flagship position and the flagship position character has the [Shadow of the Past] skill, the higher the durability of the character, the less the character's first round of main gun loading time (minimum 20%, maximum 80.0%)"
+				"desc": "战斗中，自身首轮鱼雷装填所需时间降低40.0%；在战斗中受到伤害，导致耐久低于20%时，恢复总耐久的10.0%耐久，该效果每场战斗仅可触发一次",
+				"desc_en": "During combat, the time required to reload your first torpedo is reduced by 40.0%; if you take damage in combat that causes your durability to fall below 20%, restore 10.0% of your total durability, this effect can only be triggered once per battle"
+			},
+			{
+				"name": "专属弹幕-小柴郡II",
+				"name_en": "Exclusive pop-up - Little Cheshire II",
+				"type": "Red",
+				"desc": "主炮每进行6次攻击，触发专属弹幕-小柴郡II",
+				"desc_en": "Triggers Exclusive Barrage - Kobayashi-gun II for every 6 attacks made by the main cannon"
 			}
 		]
 	},
 	{
-		"id": 404044,
-		"code": "SMS Lützow",
-		"name": "吕佐夫",
-		"name_en": "Luzov",
-		"hullType": "Battlecruiser",
-		"faction": "Iron Blood",
-		"rarity": "Super Rare",
-		"limitbreak": [
-			"主炮底座+1/主炮效率提高5%",
-			"副炮底座+1/主炮效率提高10%",
-			"主炮底座+1/主炮效率提高15%"
-		],
-		"limitbreak_en": [
-			"Main gun base +1/main gun efficiency increased by 5%",
-			"Secondary gun base +1/main gun efficiency increased by 10%",
-			"Main gun base +1/main gun efficiency increased by 15%"
-		],
-		"equip": {
-			"slot1": {
-				"type": "BB Guns",
-				"efficiency": "125%",
-				"count": 1
-			},
-			"slot2": {
-				"type": "DD Guns/CL Guns",
-				"efficiency": "170%",
-				"count": 2
-			},
-			"slot3": {
-				"type": "DD Guns/AA Guns",
-				"efficiency": "90%",
-				"count": 1
-			}
-		},
-		"stats": {
-			"health": 7803,
-			"armor": "Heavy",
-			"firepower": 395,
-			"torpedo": 183,
-			"antiAir": 274,
-			"aviation": 0,
-			"reload": 166,
-			"hit": 68,
-			"evasion": 32,
-			"speed": 26,
-			"luck": 30,
-			"asw": 0,
-			"cost": 15
-		},
-		"skill": [
-			{
-				"name": "斯卡格拉克的勇气",
-				"name_en": "Skagrak's Courage",
-				"type": "Red",
-				"desc": "战斗开始后，自身主炮伤害提高10.0%；主炮开火时，有70.0%概率朝自己前方发射一轮特殊弹幕Lv.10（威力和样式依据技能等级）",
-				"desc_en": "When battle begins, your own main cannon damage is increased by 10.0%; when the main cannon fires, it has a 70.0% chance of firing a round of special projectiles Lv.10 in front of you (power and style based on skill level)"
-			},
-			{
-				"name": "狩猎时刻",
-				"name_en": "Hunting Hour",
-				"type": "Yellow",
-				"desc": "自身在战斗中击破敌舰时，自身炮击、命中属性提高5.0%，最多叠加3次，当效果叠加至3层时，自身装填属性提高15.0%",
-				"desc_en": "When you break an enemy ship in battle, your gunfire and hit attributes increase by 5.0%, stacking up to 3 times, and when the effect stacks to 3 levels, your loadout attributes increase by 15.0%"
-			},
-			{
-				"name": "往昔之影·吕佐夫",
-				"name_en": "Shadow of the Past - Luzov",
-				"type": "Red",
-				"desc": "自身对战列、战巡的伤害提高10.0%，若敌方单位在受到自身伤害后5秒内被击破可视为被自身击破；自身装备半穿甲弹及穿甲弹主炮命中敌方单位时，同时降低其炮击、命中属性10.0%，持续3秒，效果结束后有10%的概率对其造成3000点伤害",
-				"desc_en": "10.0% increase in damage to battlecruisers and battlecruisers; if an enemy unit is broken within 5 seconds of being damaged by itself, it is considered to be broken by itself; when an enemy unit is hit by its own semi-armor piercing ammunition and armor piercing ammunition main gun, it also reduces its gunfire and hitting attributes by 10.0% for 3 seconds, with a 10% chance of dealing 3000 damage to it after the effect ends"
-			}
-		]
-	},
-	{
-		"id": 405044,
-		"code": "SMS Thüringen",
-		"name": "图林根",
-		"name_en": "Thuringia",
+		"id": 205114,
+		"code": "HMS Revenge",
+		"name": "复仇",
+		"name_en": "revenge",
 		"hullType": "Battleship",
-		"faction": "Iron Blood",
+		"faction": "Royal Navy",
 		"rarity": "Elite",
 		"limitbreak": [
 			"主炮底座+1/主炮效率提高5%",
-			"副炮底座+1/主炮效率提高10%",
+			"副炮底座+2/主炮效率提高10%",
 			"主炮底座+1/主炮效率提高15%"
 		],
 		"limitbreak_en": [
 			"Main gun base +1/main gun efficiency increased by 5%",
-			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Secondary gun base +2/main gun efficiency increased by 10%",
 			"Main gun base +1/main gun efficiency increased by 15%"
 		],
 		"equip": {
 			"slot1": {
 				"type": "BB Guns",
-				"efficiency": "125%",
+				"efficiency": "130%",
 				"count": 1
 			},
 			"slot2": {
 				"type": "DD Guns/CL Guns",
 				"efficiency": "200%",
-				"count": 2
+				"count": 3
 			},
 			"slot3": {
-				"type": "DD Guns/AA Guns",
-				"efficiency": "70%",
+				"type": "AA Guns",
+				"efficiency": "100%",
 				"count": 1
 			}
 		},
 		"stats": {
-			"health": 6400,
+			"health": 7643,
 			"armor": "Heavy",
-			"firepower": 398,
-			"torpedo": 117,
-			"antiAir": 180,
+			"firepower": 404,
+			"torpedo": 0,
+			"antiAir": 217,
 			"aviation": 0,
-			"reload": 141,
-			"hit": 61,
-			"evasion": 23,
-			"speed": 20,
-			"luck": 60,
+			"reload": 152,
+			"hit": 72,
+			"evasion": 30,
+			"speed": 21,
+			"luck": 76,
 			"asw": 0,
 			"cost": 15
 		},
 		"skill": [
 			{
-				"name": "长夜星灯",
-				"name_en": "Long Night Starlight",
-				"type": "Yellow",
-				"desc": "战斗中自身主炮每次装填完毕时有70.0%概率触发一轮特殊弹幕Lv.10（弹幕威力依据技能等级）,被特殊弹幕中蓝色子弹命中的敌方单位在接下来的10秒内机动属性降低8%，受到来自我方主力编队中铁血阵营角色的伤害提升12.0%",
-				"desc_en": "Each time your main cannon is reloaded during battle, you have a 70.0% chance of triggering a special barrage Lv.10 (barrage power is based on skill level), enemy units hit by blue bullets in the special barrage have their mobility reduced by 8% for the next 10 seconds, and take 12.0% more damage from Ironborn characters in our main formation"
+				"name": "破敌强击",
+				"name_en": "break enemy strong strike",
+				"type": "Red",
+				"desc": "战斗开始后每15秒有50.0%的概率发射一轮特殊弹幕Lv.10（威力依据技能等级），对命中的目标造成特殊破甲效果，持续8秒",
+				"desc_en": "50.0% chance of firing a special round of projectiles Lv.10 every 15 seconds after the start of battle (power based on skill level), causing a special armor-breaking effect on the target hit for 8 seconds"
 			},
 			{
-				"name": "往昔之影·图林根",
-				"name_en": "Shadow of the Past - Thuringia",
+				"name": "火力移转",
+				"name_en": "fireshift",
+				"type": "Yellow",
+				"desc": "自身炮击提高10.0%；队伍中旗舰位为其他战列或战巡时，自身主炮由旗舰位置发射",
+				"desc_en": "Increase your own gunfire by 10.0%; if the flagship is another battlecruiser or battlecruiser, your main gun will be fired from the flagship position"
+			}
+		]
+	},
+	{
+		"id": 205134,
+		"code": "HMS Vanguard",
+		"name": "前卫",
+		"name_en": "avant-garde",
+		"hullType": "Battleship",
+		"faction": "Royal Navy",
+		"rarity": "Ultra Rare",
+		"limitbreak": [
+			"主炮底座+1/主炮效率提高5%",
+			"副炮底座+2/主炮效率提高10%",
+			"主炮底座+1/主炮效率提高15%"
+		],
+		"limitbreak_en": [
+			"Main gun base +1/main gun efficiency increased by 5%",
+			"Secondary gun base +2/Main gun efficiency increased by 10%",
+			"Main gun base +1/main gun efficiency increased by 15%"
+		],
+		"equip": {
+			"slot1": {
+				"type": "BB Guns",
+				"efficiency": "145%",
+				"count": 1
+			},
+			"slot2": {
+				"type": "DD Guns/CL Guns",
+				"efficiency": "180%",
+				"count": 3
+			},
+			"slot3": {
+				"type": "AA Guns",
+				"efficiency": "130%",
+				"count": 1
+			}
+		},
+		"stats": {
+			"health": 9690,
+			"armor": "Heavy",
+			"firepower": 422,
+			"torpedo": 0,
+			"antiAir": 435,
+			"aviation": 0,
+			"reload": 178,
+			"hit": 80,
+			"evasion": 39,
+			"speed": 30,
+			"luck": 52,
+			"asw": 0,
+			"cost": 18
+		},
+		"skill": [
+			{
+				"name": "导引的荣耀之光",
+				"name_en": "Guided Glory Light",
 				"type": "Red",
-				"desc": "自身第二武器栏位装备铁血武器时，该武器开火有70.0%概率额外发射2组炮弹，该效果每10秒最多触发一次",
-				"desc_en": "When your second weapon is equipped with an Ironborn weapon, there is a 70.0% chance that the weapon will fire 2 additional rounds, and this effect will trigger once every 10 seconds at most."
+				"desc": "自身的主炮武器装填完毕时，有100.0%概率发动，6秒内使在场的敌方角色受到来自战列、战巡的伤害增加8.0%，并发射一轮特殊弹幕Lv.10（威力依据技能等级）",
+				"desc_en": "When its own main gun weapon is loaded, it has a 100.0% chance to activate, causing enemy characters present to take 8.0% more damage from battlecruisers and battlecruisers for 6 seconds, and fires a round of special projectiles Lv.10 (power based on skill level)"
+			},
+			{
+				"name": "威慑的忠义之刃",
+				"name_en": "intimidating loyalty blade",
+				"type": "Yellow",
+				"desc": "进入战斗时，提升自身命中属性12.0%，装填属性20.0%；战斗中，敌人在场超过2秒后，受到的伤害提高10.0%；关卡海域内其他编队进入战斗时，若自身存活，提高该队伍中皇家阵营先锋角色炮击10.0%，并在战斗开始后30秒发动一轮支援弹幕，弹幕触发后15秒内所有舰队成员防空值提高10.0%",
+				"desc_en": "When entering battle, improve your own hitting attributes by 12.0% and loading attributes by 20.0%; during battle, after an enemy is present for more than 2 seconds, the damage taken is increased by 10.0%; when other formations within the level's waters enter battle, if you survive, improve the gunfire of the Royal Camp's vanguard character in that team by 10.0%, and launch a round of support barrage 30 seconds after the battle begins, barrage All fleet members within 15 seconds after the trigger air defense value increased by 10.0%"
+			},
+			{
+				"name": "闪耀的皇家之剑",
+				"name_en": "Shining Royal Sword",
+				"type": "Blue",
+				"desc": "自身装备的副炮武器必定暴击；自身装备皇家阵营装备时，自身防空炮武器效率提高30.0%，减小舰队旗舰的主炮散布范围2点；战斗开始时，若队伍中存在其他皇家阵营角色，降低所有皇家阵营角色受到的航空伤害10.0%",
+				"desc_en": "Your own equipped secondary cannon weapon must blast; when equipped with Royal Camp equipment, your own anti-aircraft cannon weapon efficiency is increased by 30.0%, reducing the main cannon scatter range of the fleet flagship by 2 points; at the start of battle, if there are other Royal Camp characters in your party, reduce the air damage taken by all Royal Camp characters by 10.0%"
+			}
+		]
+	},
+	{
+		"id": 207124,
+		"code": "HMS Indomitable",
+		"name": "不挠",
+		"name_en": "no-flex",
+		"hullType": "Aircraft Carrier",
+		"faction": "Royal Navy",
+		"rarity": "Super Rare",
+		"limitbreak": [
+			"所有战斗机+1/战斗机效率提高3%",
+			"机库容量+1/所有鱼雷机+1/战斗机效率提高5%",
+			"所有战斗机+1/战斗机效率提高7%"
+		],
+		"limitbreak_en": [
+			"+1 to all fighters/Fighter efficiency increased by 3%",
+			"Hangar capacity +1/all torpedo planes +1/fighters efficiency increased by 5%",
+			"All fighters +1 / fighter efficiency increased by 7%"
+		],
+		"equip": {
+			"slot1": {
+				"type": "Fighter",
+				"efficiency": "140%",
+				"count": 3
+			},
+			"slot2": {
+				"type": "Fighter",
+				"efficiency": "140%",
+				"count": 3
+			},
+			"slot3": {
+				"type": "Torpedo Bomber",
+				"efficiency": "120%",
+				"count": 2
+			}
+		},
+		"stats": {
+			"health": 6517,
+			"armor": "Heavy",
+			"firepower": 0,
+			"torpedo": 0,
+			"antiAir": 316,
+			"aviation": 434,
+			"reload": 121,
+			"hit": 97,
+			"evasion": 55,
+			"speed": 30,
+			"luck": 42,
+			"asw": 0,
+			"cost": 14
+		},
+		"skill": [
+			{
+				"name": "不挠之焰",
+				"name_en": "Flame of Inflexibility",
+				"type": "Red",
+				"desc": "自身发动空袭时，额外发动一轮特殊航空弹幕Lv.10（威力和样式依据技能等级），该弹幕对命中的敌方单位造成特殊点燃-不挠（伤害依据航空属性）",
+				"desc_en": "When you launch an air attack, you launch an additional round of special aerial barrage Lv.10 (power and style based on skill level), which deals a special Ignition-Inflexible to enemy units hit (damage based on aerial properties)"
+			},
+			{
+				"name": "空域警戒",
+				"name_en": "Airspace Vigilance",
+				"type": "Red",
+				"desc": "战斗开始后10秒及之后每20秒，额外使用舰载机编队进行一轮攻击Lv.10（威力依据技能等级），该弹幕对命中的敌方单位造成特殊点燃-不挠（伤害依据航空属性）；自身舰载机击落敌方飞机后10秒内，队伍受到的航空伤害降低15.0%，该效果每20秒最多触发一次",
+				"desc_en": "10 seconds after the start of combat and every 20 seconds thereafter, make an additional attack round with a fleet of ships Lv.10 (power based on skill level), which causes a special Ignite - Undaunted (damage based on aerial attributes) to enemy units hit; for 10 seconds after your own ships shoot down enemy aircraft, the team takes 15.0% less aerial damage, this effect is triggered once every 20 seconds at most. Triggered once every 20 seconds"
+			},
+			{
+				"name": "航空护卫",
+				"name_en": "Aviation Escort",
+				"type": "Yellow",
+				"desc": "战斗开始后队伍中的光辉级角色伤害提高8.0%；出击时：①若队伍中含有除自身外的光辉级角色，除自身外的光辉级角色航空、命中属性提高15.0%；②若队伍中没有除自身外的光辉级角色，自身航空属性提高15.0%；③若队伍中存在威尔士亲王或反击，②效果无视阵容限制，自身命中属性额外提高12.0%",
+				"desc_en": "After the start of the battle the damage of the glory level characters in the team is increased by 8.0%; when striking: ① if the team contains glory level characters other than yourself, the glory level characters other than yourself have their aerial and hit attributes increased by 15.0%; ② if there are no glory level characters other than yourself in the team, your own aerial attributes are increased by 15.0%; ③ if there is a Prince of Wales or counter attack in the team, ② the effect Increase own hit attributes by an additional 12.0% regardless of lineup restrictions"
 			}
 		]
 	}

@@ -1,37 +1,32 @@
 [
 	{
-		"id": 402074,
-		"code": "SMS Emden",
-		"name": "埃姆登"
+		"id": 201344,
+		"code": "HMS Jervis",
+		"name": "贾维斯"
 	},
 	{
-		"id": 402084,
-		"code": "SMS Elbing",
-		"name": "埃尔宾"
+		"id": 202314,
+		"code": "HMS Bellona ",
+		"name": "司战女神"
 	},
 	{
-		"id": 403114,
-		"code": "SMS Yorck",
-		"name": "约克"
+		"id": 203104,
+		"code": "HMS Cheshire",
+		"name": "小柴郡"
 	},
 	{
-		"id": 403124,
-		"code": "KMS Prinz Eugen",
-		"name": "小欧根"
+		"id": 205114,
+		"code": "HMS Revenge",
+		"name": "复仇"
 	},
 	{
-		"id": 404034,
-		"code": "SMS Seydlitz",
-		"name": "塞德利茨"
+		"id": 205134,
+		"code": "HMS Vanguard",
+		"name": "前卫"
 	},
 	{
-		"id": 404044,
-		"code": "SMS Lützow",
-		"name": "吕佐夫"
-	},
-	{
-		"id": 405044,
-		"code": "SMS Thüringen",
-		"name": "图林根"
+		"id": 207124,
+		"code": "HMS Indomitable",
+		"name": "不挠"
 	}
 ]

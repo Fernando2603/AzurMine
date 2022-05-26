@@ -1,155 +1,135 @@
 [
 	{
-
-		"id": 402074,
-		"name": "Emden",
+		"id": 201344,
+		"name": "Jarvis",
 		"limitbreak": [
-			"Gain Exclusive Barrage I/main gun efficiency increased by 5%",
-			"Torpedo base +1/main gun efficiency increased by 10%",
-			"Exclusive Barrage Upgrade / All Weapon Efficiency Increased by 5% / Torpedo Base can be loaded at the same time"
+			"Gain Exclusive Barrage I/Main Gun efficiency increased by 5%",
+			"Torpedo base +1/Torpedo preload +1/Main gun efficiency increased by 10%",
+			"Exclusive catapult upgrade / 5% increase in all weapons efficiency"
 		],
 		"skill": [
 			{
-				"name": "Eeny meeny miny moe",
-				"desc": "When equipped with the main gun weapon of the light patrol, the efficiency of the main gun and the secondary gun weapon is increased by 25.0%, and every 20 seconds during the battle, a round of the bullet screen Lv.10 is triggered (the power of the bullet screen is based on the skill level), and enemy units in the mission of the bullet screen are slowed down by 30% for 5 seconds; when equipped with the main gun weapon of the expulsion in the secondary gun, every 10 seconds during the battle, a shield that can block 5 If the shield is broken during the duration, a round of special curtain Lv.10 will be triggered, and 15.0% of the damage done by the special curtain will be returned to its own durability (curtain power is based on skill level)"
+				"name": "Hand in hand",
+				"desc": "During battle, its own gunfire and anti-submarine attributes are increased by 10.0%; 20 seconds after the start of battle, restore 5.0% maximum durability to all Vanguard fleets; at the start of battle, if there are at least 3 Royal Camp characters in the team, the anti-submarine, gunfire and lightning attributes of Royal Camp destroyers in the team are increased by 10.0%"
 			},
 			{
-				"name": "Shadow of the Past - Emden(?)" ,
-				"desc": "At the start of battle, boosts your maneuvering attributes by 10.0%; for each enemy ship you break during battle, your maneuvering is increased by an additional 5.0%, up to a maximum of 3 tiers; when entering battle, if the vanguard fleet consists of only yourself, you ignore the ammo scarcity effect during battle; when entering battle, if there are other Ironborn characters in your party, 5 seconds after opening, deducts 11 points from all Ironborn characters in your party Endurance and increase their gunfire attributes by 10.0%"
+				"name": "Lucky Arrival",
+				"desc": "During the battle, the air damage you take is reduced by 10.0%; at the beginning of the battle, if there is no other ship in the vanguard fleet except destroyers and light cruisers, your lightning attack attribute is increased by 10.0%, and the lightning damage you take is reduced by 20.0%; at the beginning of the battle, if the vanguard formation is full and you are in the lead ship position, when you take damage during this battle, you have 15% chance to trigger, own evasion rate increased by 30.0% for 10 seconds, the effect is triggered once every 20 seconds at most"
 			},
 			{
-				"name": "Exclusive Barrage - Emden II",
-				"desc": "For every 10 attacks made by the main cannon, trigger Exclusive Barrage - Emden II"
+				"name": "Exclusive Bullet - Jarvis II",
+				"desc": "Triggers Exclusive Barrage - Jarvis II for every 10 attacks made by the main cannon"
 			}
 		]
 	},
 	{
-		"id": 402084,
-		"name": "Elbing",
+		"id": 202314,
+		"name": "Seiji War Goddess",
 		"limitbreak": [
 			"Gain full ammo launch I/main gun efficiency increased by 5%",
-			"Torpedo Preload +1/Main Gun Efficiency 10% Increase",
-			"Full Bomb Launch Barrage Upgrade / Full Weapon Efficiency Increased by 5%"
+			"Torpedo Base +1/Torpedo Preload +1/Air Defense Gun Efficiency 10% Increase",
+			"Full Bomb Launch Barrage Upgrade/Main Gun Efficiency Increased by 15%"
 		],
 		"skill": [
 			{
-				"name": "Attack! Attack!" ,
-				"desc": "During battle, your own mobility attributes increase by 15.0%, for every 5 attacks made by your own equipped main gun weapon, your own artillery and anti-aircraft attributes increase by 5.0%, lasting until the end of the battle, up to 3 levels, when enemy aircraft in the anti-aircraft circle are shot down, the artillery and anti-aircraft attribute boosting effect stacks directly to the full level"
+				"name": "Duellona",
+				"desc": "During battle, its own air defense and maneuvering attributes are increased by 20.0%; at the start of battle, if there are at least 3 Royal Camp characters in the party, the Royal Camp destroyers in the party have their air defense increased by 15.0% and their own air defense weapon efficiency increased by 15.0%"
 			},
 			{
-				"name": "Shadow of the Past - Elbin",
-				"desc": "Damage dealt by torpedo weapons is reduced by 15.0%, and when your equipped torpedo weapon fires, if there are no enemy units within 30 distance of you, trigger a round of Armor Piercing projectile Lv.10, otherwise trigger a round of High Explosive projectile Lv.10 (projectile power is based on skill level)"
-			},
-			{
-				"name": "Full-fire II",
-				"desc": "Every 8 attacks made by the main cannon triggers Full Shell Fire - Pilau Level II"
-			}
-		]
-	},
-	{
-		"id": 403114,
-		"name": "York",
-		"limitbreak": [
-			"Gain full ammo firing I / 2% increase in full weapon efficiency",
-			"Torpedo Base +1/Full Weapon Efficiency 3% Increase",
-			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
-		],
-		"skill": [
-			{
-				"name": "precision shooting",
-				"desc": "Own gunfire and hit attributes increased by 15.0%; own hit rate against destroyers increased by 10.0%"
-			},
-			{
-				"name": "Shadow of the Past - York",
-				"desc": "Self takes 15.0% less damage from lightning strikes; generates a shield that blocks 3 torpedoes every 20 seconds after battle begins for 20 seconds"
+				"name": "Air Raid Guidance",
+				"desc": "Increases damage dealt by light and positive air raids by 15% while in a team (surviving), same skill effects do not stack"
 			},
 			{
 				"name": "Full Bomb Launch II",
-				"desc": "Every 6 attacks made by the main gun triggers Full Fire - Roan Class II"
+				"desc": "Every 10 attacks made by the main cannon triggers Full Bombshell Launch - Dido Class II"
 			}
 		]
 	},
 	{
-		"id": 403124,
-		"name": "Little Eugen",
+		"id": 203104,
+		"name": "小柴郡",
 		"limitbreak": [
-			"Gain full ammo launch I / 2% increase in full weapon efficiency",
-			"Torpedo Base +1/Torpedo Preload +1/Full Weapon Efficiency 3% Increase",
-			"Full-fire Barrage Upgrade/Full Weapon Efficiency Increase by 5%"
+			"Gain Exclusive Barrage I/Increase main gun efficiency by 10%",
+			"Anti-aircraft gun base +1/anti-aircraft gun efficiency increased by 10%",
+			"Exclusive Barrage Upgrade/Increased efficiency of all weapons by 5%"
 		],
 		"skill": [
 			{
-				"name": "Unbreakable shield shield shield!" ,
-				"desc": "At the start of combat, generate a rotating set of shields, each blue shield can block 4 rounds, each purple shield can block 2 torpedoes, each red shield can deal up to 6 damage by collision, the shield lasts 10.0 seconds and is generated again every 30 seconds"
+				"name": "Grin and Love!",
+				"desc": "Triggers a round of Barrage Lv.10 3 seconds after the start of battle (Barrage power and style based on skill level), after which it triggers again every 15 seconds, and each time it triggers the Barrage, its own anti-aircraft properties are raised by 15.0% for 10 seconds"
 			},
 			{
-				"name": "Full Bomb Launch II",
-				"desc": "Every 6 attacks made by the main gun triggers Full Fire - Admiral Hipper Class II"
+				"name": "Cheshire Up!",
+				"desc": "During combat, the time required to reload your first torpedo is reduced by 40.0%; if you take damage in combat that causes your durability to fall below 20%, restore 10.0% of your total durability, this effect can only be triggered once per battle"
+			},
+			{
+				"name": "Exclusive pop-up - Little Cheshire II",
+				"desc": "Triggers Exclusive Barrage - Kobayashi-gun II for every 6 attacks made by the main cannon"
 			}
 		]
 	},
 	{
-		"id": 404034,
-		"name": "cedlitz",
+		"id": 205114,
+		"name": "revenge",
 		"limitbreak": [
 			"Main gun base +1/main gun efficiency increased by 5%",
-			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Secondary gun base +2/main gun efficiency increased by 10%",
 			"Main gun base +1/main gun efficiency increased by 15%"
 		],
 		"skill": [
 			{
-				"name": "Iron General",
-				"desc": "At the start of battle, if there are at least 2 characters from the Ironborn camp in your party, your own artillery and reloading attributes are increased by 18%; \n the higher your own durability at the start of battle, the less time you take to reload your own first round main gun (minimum 20%, maximum 80.0%); \n during battle, you take 60.0% of the damage taken by other Ironborn camp characters in your main formation and reduce 20.0% of the damage taken by that damage, the effect of taking damage will expire after triggering [Unsinkable Legend]"
+				"name": "break enemy strong strike",
+				"desc": "50.0% chance of firing a special round of projectiles Lv.10 every 15 seconds after the start of battle (power based on skill level), causing a special armor-breaking effect on the target hit for 8 seconds"
 			},
 			{
-				"name": "Unsinkable Legend",
-				"desc": "Evade this damage when taking lethal damage, will not die in battle, evade all damage for 10 seconds, restore your own 22.0% maximum durability value, and reduce the damage you take by 5%, lasting until the end of the battle, this effect can only be triggered once per battle; \n the higher your durability in battle, the higher the damage you deal, up to 20.0% higher; \n the lower your durability, the lower the damage you The lower your own durability, the lower the damage you take, up to a maximum of 20.0% lower (can not reduce the damage from [Iron General] in taking other characters)"
-			},
-			{
-				"name": "Shadow of the Past - Seidlitz",
-				"desc": "own first round of main gun firing triggers a round of special projectile Lv.10; \n the beginning of the battle, if you are not in the flagship position and the flagship position character has the [Shadow of the Past] skill, the higher the durability of the character, the less the character's first round of main gun loading time (minimum 20%, maximum 80.0%)"
+				"name": "fireshift",
+				"desc": "Increase your own gunfire by 10.0%; if the flagship is another battlecruiser or battlecruiser, your main gun will be fired from the flagship position"
 			}
 		]
 	},
 	{
-		"id": 404044,
-		"name": "Luzov",
+		"id": 205134,
+		"name": "avant-garde",
 		"limitbreak": [
 			"Main gun base +1/main gun efficiency increased by 5%",
-			"Secondary gun base +1/main gun efficiency increased by 10%",
+			"Secondary gun base +2/Main gun efficiency increased by 10%",
 			"Main gun base +1/main gun efficiency increased by 15%"
 		],
 		"skill": [
 			{
-				"name": "Skagrak's Courage",
-				"desc": "When battle begins, your own main cannon damage is increased by 10.0%; when the main cannon fires, it has a 70.0% chance of firing a round of special projectiles Lv.10 in front of you (power and style based on skill level)"
+				"name": "Guided Glory Light",
+				"desc": "When its own main gun weapon is loaded, it has a 100.0% chance to activate, causing enemy characters present to take 8.0% more damage from battlecruisers and battlecruisers for 6 seconds, and fires a round of special projectiles Lv.10 (power based on skill level)"
 			},
 			{
-				"name": "Hunting Hour",
-				"desc": "When you break an enemy ship in battle, your gunfire and hit attributes increase by 5.0%, stacking up to 3 times, and when the effect stacks to 3 levels, your loadout attributes increase by 15.0%"
+				"name": "intimidating loyalty blade",
+				"desc": "When entering battle, improve your own hitting attributes by 12.0% and loading attributes by 20.0%; during battle, after an enemy is present for more than 2 seconds, the damage taken is increased by 10.0%; when other formations within the level's waters enter battle, if you survive, improve the gunfire of the Royal Camp's vanguard character in that team by 10.0%, and launch a round of support barrage 30 seconds after the battle begins, barrage All fleet members within 15 seconds after the trigger air defense value increased by 10.0%"
 			},
 			{
-				"name": "Shadow of the Past - Luzov",
-				"desc": "10.0% increase in damage to battlecruisers and battlecruisers; if an enemy unit is broken within 5 seconds of being damaged by itself, it is considered to be broken by itself; when an enemy unit is hit by its own semi-armor piercing ammunition and armor piercing ammunition main gun, it also reduces its gunfire and hitting attributes by 10.0% for 3 seconds, with a 10% chance of dealing 3000 damage to it after the effect ends"
+				"name": "Shining Royal Sword",
+				"desc": "Your own equipped secondary cannon weapon must blast; when equipped with Royal Camp equipment, your own anti-aircraft cannon weapon efficiency is increased by 30.0%, reducing the main cannon scatter range of the fleet flagship by 2 points; at the start of battle, if there are other Royal Camp characters in your party, reduce the air damage taken by all Royal Camp characters by 10.0%"
 			}
 		]
 	},
 	{
-		"id": 405044,
-		"name": "Thuringia",
+		"id": 207124,
+		"name": "no-flex",
 		"limitbreak": [
-			"Main gun base +1/main gun efficiency increased by 5%",
-			"Secondary gun base +1/main gun efficiency increased by 10%",
-			"Main gun base +1/main gun efficiency increased by 15%"
+			"+1 to all fighters/Fighter efficiency increased by 3%",
+			"Hangar capacity +1/all torpedo planes +1/fighters efficiency increased by 5%",
+			"All fighters +1 / fighter efficiency increased by 7%"
 		],
 		"skill": [
 			{
-				"name": "Long Night Starlight",
-				"desc": "Each time your main cannon is reloaded during battle, you have a 70.0% chance of triggering a special barrage Lv.10 (barrage power is based on skill level), enemy units hit by blue bullets in the special barrage have their mobility reduced by 8% for the next 10 seconds, and take 12.0% more damage from Ironborn characters in our main formation"
+				"name": "Flame of Inflexibility",
+				"desc": "When you launch an air attack, you launch an additional round of special aerial barrage Lv.10 (power and style based on skill level), which deals a special Ignition-Inflexible to enemy units hit (damage based on aerial properties)"
 			},
 			{
-				"name": "Shadow of the Past - Thuringia",
-				"desc": "When your second weapon is equipped with an Ironborn weapon, there is a 70.0% chance that the weapon will fire 2 additional rounds, and this effect will trigger once every 10 seconds at most."
+				"name": "Airspace Vigilance",
+				"desc": "10 seconds after the start of combat and every 20 seconds thereafter, make an additional attack round with a fleet of ships Lv.10 (power based on skill level), which causes a special Ignite - Undaunted (damage based on aerial attributes) to enemy units hit; for 10 seconds after your own ships shoot down enemy aircraft, the team takes 15.0% less aerial damage, this effect is triggered once every 20 seconds at most. Triggered once every 20 seconds"
+			},
+			{
+				"name": "Aviation Escort",
+				"desc": "After the start of the battle the damage of the glory level characters in the team is increased by 8.0%; when striking: ① if the team contains glory level characters other than yourself, the glory level characters other than yourself have their aerial and hit attributes increased by 15.0%; ② if there are no glory level characters other than yourself in the team, your own aerial attributes are increased by 15.0%; ③ if there is a Prince of Wales or counter attack in the team, ② the effect Increase own hit attributes by an additional 12.0% regardless of lineup restrictions"
 			}
 		]
 	}
