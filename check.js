@@ -5,7 +5,7 @@ const repository  = "https://raw.githubusercontent.com/AzurLaneTools/AzurLaneDat
 const server_name = "CN";
 
 // ship id
-const ship_file = fs.readFileSync('./ship_id.json');
+const ship_file = fs.readFileSync('./src/ship_id.json');
 const new_ship  = JSON.parse(ship_file);
 // type of file is array prototype
 
@@ -44,7 +44,7 @@ function main(data, id, ship) {
     const json_content_2 = JSON.stringify([...data, ...new_id], null, '\t');
     const json_content_3 = JSON.stringify(all_id, null, '\t');
 
-    fs.writeFile("./database.json", json_content, 'utf8', function (err) {
+    fs.writeFile("./src/database.json", json_content, 'utf8', function (err) {
         if (err) {
             console.log("An error occured while writing JSON to File");
             return console.log(err);
@@ -52,7 +52,7 @@ function main(data, id, ship) {
         console.log("=> ./database.json has been updated!");
     });
 
-    fs.writeFile("./ship_id.json", json_content_2, 'utf8', function (err) {
+    fs.writeFile("./src/ship_id.json", json_content_2, 'utf8', function (err) {
         if (err) {
             console.log("An error occured while writing JSON to File");
             return console.log(err);
@@ -60,7 +60,7 @@ function main(data, id, ship) {
         console.log("=> ./ship_id.json has been updated!");
     });
 
-    fs.writeFile("./all_id.json", json_content_3, 'utf8', function (err) {
+    fs.writeFile("./src/all_id.json", json_content_3, 'utf8', function (err) {
         if (err) {
             console.log("An error occured while writing JSON to File");
             return console.log(err);

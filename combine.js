@@ -1,9 +1,9 @@
 import fs from 'node:fs';
 
-const data_file = fs.readFileSync('./data.json');
+const data_file = fs.readFileSync('./src/data.json');
 const database  = JSON.parse(data_file);
 
-const comb_file = fs.readFileSync('./translate.json');
+const comb_file = fs.readFileSync('./src/translate.json');
 const translate = JSON.parse(comb_file);
 
 let main = [];
@@ -84,10 +84,10 @@ database.forEach((ship) => {
     main.push(builder);
 });
 
-fs.writeFile("./main.json", JSON.stringify(main, null, '\t'), 'utf8', function (err) {
+fs.writeFile("./datamine.json", JSON.stringify(main, null, '\t'), 'utf8', function (err) {
     if (err) {
         console.log("An error occured while writing JSON to File");
         return console.log(err);
     };
-    console.log("=> ./main.json has been updated!");
+    console.log("=> ./datamine.json has been updated!");
 });
