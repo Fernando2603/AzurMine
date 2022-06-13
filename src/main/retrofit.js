@@ -45,7 +45,8 @@ export default function retrofit(azurapi, retrofit, retrofit_effect, id=false) {
         });
     };
 
-    if ( !id ) {
+    if ( !id )
+    {
         return_value = ({
             health: retrofit_hp,
             firepower: retrofit_fp,
