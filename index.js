@@ -9,7 +9,7 @@ const ship_file = fs.readFileSync('./src/database.json');
 const new_ship  = JSON.parse(ship_file);
 
 import main from "./src/main.js";
-import equippable from "./src/equippable.js";
+import equipable from "./src/equipable.js";
 import datamine from "./src/datamine.js";
 
 Promise.all([
@@ -47,7 +47,7 @@ Promise.all([
         azurapi
     ]) => {
         main(azurapi, ship, enhance, enhance_meta, meta_repair, meta_effect, enhance_pr, pr_effect, retrofit, retrofitdesc);
-        equippable(azurapi, data, retrofit, retrofitdesc);
+        equipable(azurapi, data, retrofit, retrofitdesc);
         datamine(new_ship, ship, skill, data, enhance, breakout, retrofit, retrofitdesc); 
     },
     (error) => {

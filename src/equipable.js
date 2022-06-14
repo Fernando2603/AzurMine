@@ -1,9 +1,9 @@
 import fs from 'node:fs';
 
 import retrofit from "./main/retrofit.js";
-import slot from "./equippable/slot.js";
+import slot from "./equipable/slot.js";
 
-export default function equippable(azurapi, data, retrofit_data, retrofit_effect) {
+export default function equipable(azurapi, data, retrofit_data, retrofit_effect) {
     let json_builder = [];
 
     azurapi.forEach((api) => {
@@ -59,11 +59,11 @@ export default function equippable(azurapi, data, retrofit_data, retrofit_effect
         };
     });
 
-    fs.writeFile("./equippable.json", JSON.stringify(json_builder, null, '\t'), 'utf8', function (err) {
+    fs.writeFile("./equipable.json", JSON.stringify(json_builder, null, '\t'), 'utf8', function (err) {
         if (err) {
             console.log("An error occured while writing JSON to File");
             return console.log(err);
         };
-        console.log("=> ./equippable.json has been updated!");
+        console.log("=> ./equipable.json has been updated!");
     });
 };
